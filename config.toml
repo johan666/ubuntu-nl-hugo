@@ -1,0 +1,5 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "nl-nl"
+title = "Hugo testsite"
+theme = "ubuntu-nl"
+MetaDataFormat = "yaml"
