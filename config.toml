@@ -3,3 +3,9 @@ languageCode = "nl-nl"
 title = "Hugo testsite"
 theme = "ubuntu-nl"
 MetaDataFormat = "yaml"
+
+[[menu.mainnav]]
+  name = "Hoofdpagina"
+  weight = -100
+  identifier = "Hoofd"
+  url = "/"

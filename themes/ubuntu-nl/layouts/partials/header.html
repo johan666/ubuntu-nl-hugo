@@ -1,6 +1,55 @@
-<!DOCTYPEDOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>{{ .Title }}</title>
+  <!-- stylesheets
+  fonts
+  scripts? -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+
 </head>
 <body>
+  <!-- header -->
+  <div id="header"><div class="frame">
+    <div id="top-section">
+        <div class="container">
+          <div id="main-nav">
+            <!-- menuitems -->
+            {{ $currentNode := . }}
+            {{ range .Site.Menus.mainnav }}
+              <a href="{{.URL}}" class="main-nav-item{{if $currentNode.HasMenuCurrent "mainnav" . }}current{{end}}">{{.Name}}</a>
+              {{end}} <!-- end van range .site.menus.mainnav -->
+
+          </div>
+        </div>
+          <div id="page-related">
+                <div id="sub-nav-container" class="container">
+                    <div id="sub-nav">
+                      <!-- submenu items -->
+
+                      <!-- FIXME kan dit handiger? Ga alle menus af en kijk of dit het huidige menu is.
+                      Zo ja, ga de Children van het huidige menu af om het submenu te bouwen
+                    -->
+                        {{ range .Site.Menus.mainnav }} <!-- ga alle menu's af om te zien welke het huidige menu is  -->
+                        {{ if $currentNode.IsMenuCurrent "mainnav" . }}
+                        {{ range .Children }}
+                        <a href="{{.URL}}" class=sub-nav-item {{if $currentNode.IsMenuCurrent "mainnav" . }}current{{end}}>{{.Name}}</a>
+                        <!-- <a href="http://wiki.ubuntu-nl.org/" class="sub-nav-item">Documentatie</a>
+                        <a href="/" class="sub-nav-item current">Forum</a>
+                        <a href="http://ubuntu-nl.org/ondersteuning/live-chat" class="sub-nav-item">Live chat</a>
+                        <a href="http://ubuntu-nl.org/ondersteuning/steunpunten" class="sub-nav-item">Steunpunten</a>
+                        <a href="https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl" class="sub-nav-item">Mailinglijst</a>
+                        <a href="http://ubuntu-nl.org/ondersteuning/engelstalig" class="sub-nav-item">Engelstalig</a> -->
+                        {{end}} <!-- end van range Children -->
+                        {{end}} <!--end van IsMenuCurrent -->
+                        {{end}} <!-- end van range .Site.Menus.mainnav -->
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+  <!-- content vanuit markdown, evt. in aparte div -->
