@@ -4,8 +4,23 @@ title = "Hugo testsite"
 theme = "ubuntu-nl"
 MetaDataFormat = "yaml"
 
+# Menu's voor linkjes die geen pagina's van Hugo zijn. De link naar de homepage kan evt. ook op een andere manier
 [[menu.mainnav]]
-  name = "Hoofdpagina"
+  name = "Ubuntu"
   weight = -100
-  identifier = "Hoofd"
+  identifier = "ubuntu"
   url = "/"
+
+[[menu.mainnav]]
+  name = "Documentatie"
+  weight = 10
+  identifier = "documentatie"
+  parent = "ondersteuning"
+  url = "http://wiki.ubuntu-nl.org"
+
+[[menu.mainnav]]
+  name = "Forum"
+  weight = 20
+  identifier = "forum"
+  parent = "ondersteuning"
+  url = "https://forum.ubuntu-nl.org"
