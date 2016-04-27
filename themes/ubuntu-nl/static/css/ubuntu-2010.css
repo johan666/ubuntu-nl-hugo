@@ -1,0 +1,425 @@
+/ $Id: ubuntu-2010.css,v 1.1.2.1 2010/09/11 01:24:58 mtecknology Exp $ */
+
+/**
+ * Index:
+ * 1. Body
+ * 2. Header
+ * 3. Subheader
+ * 4. Content
+ * 5. Sidebar
+ * 6. Footer
+ * 7. Nice Menus
+ * 8. Advanced Forum
+ */
+
+
+/**
+ * 1. Body
+ */
+
+* {
+  color: #000000;
+}
+
+body {
+  color: #333333;
+  background-color: #EEECEA;
+}
+
+.container {
+}
+
+/**
+ * 2. Header
+ */
+
+#header {
+  background-color: #DD4814;
+}
+
+#header .links:after {
+    content: url("../images/topnav_divider.png");
+    float: left;
+}
+
+#header .links:before {
+    content: url("../images/topnav_divider.png");
+    float: left;
+}
+
+#header .links {
+    border-left: medium none;
+    float: left;
+    font-size: 14px;
+    height: 65px;
+    max-width: 770px;
+    width: auto;
+}
+
+#header li a {
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px #333333;
+}
+
+#header li.active-trail a, #header li a:hover {
+  background: url("../images/mainnav.png") repeat scroll 0 0 transparent;
+}
+
+#header #search {
+  border: 2px solid #B73F00;
+  background: #FFFFFF;
+  box-shadow: inset #DFDFDF 2px 2px 2px;
+  -moz-box-shadow: inset #DFDFDF 2px 2px 2px;
+  -webkit-box-shadow: inset #DFDFDF 2px 2px 2px;
+}
+
+#header #search * {
+  color: #E24E00;
+  background: transparent;
+}
+
+/**
+ * 3. Subheader
+ */
+
+#subheader {
+  background-color: #F7F7F7;
+  box-shadow: 0 1px 1px #DFDFDF;
+  -mox-box-shadow: 0 1px 1px #DFDFDF;
+}
+
+#subheader .container {
+  background-color: transparent;
+}
+
+#subheader .links a {
+  color: #333;
+}
+
+#subheader .links a:focus, #subheader .links a:hover,
+#subheader .links li.active a, 
+#subheader .links a:active, #subheader .links li.active-trail a {
+  background-color: #EFEFEF;
+  color: #DD4814;
+}
+
+#subheader .form-submit {
+  background-color: #F0F0F0;
+  border: 1px solid #CCCCCC;
+}
+
+#subheader .form-submit:hover {
+  background-color:#f7f7f7;
+  border: 1px solid #DD4814;
+}
+
+#subheader .form-text {
+  background-color: #F0F0F0;
+  border: 1px solid #CCCCCC;
+}
+
+#subheader .form-text:focus {
+  background-color: #F7F7F7;
+  border: 1px solid #DD4814;
+}
+
+#subheader .block-search {
+  float: right;
+}
+
+/* launchpad login */
+#subheader #openid-launchpad-login-form input {
+  border-right: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  background: url(../images/launchpad-logo.png) 4px 2px no-repeat;
+}
+
+/**
+ * 4. Content
+ */
+
+#content {
+  background: url("../images/dotted.png") repeat scroll 0 0 #F7F7F7;
+}
+
+#content .block h2 {
+  color: #3D273A;
+  border-bottom: dotted 1px #999999;
+}
+
+#content .block a {
+  color: #111111;
+}
+
+h1 {
+  color: #E24D00;
+}
+
+#center h2 a {
+  color: #E24D00;
+}
+
+.submitted {
+  color: #777777;
+}
+
+.comment h3 a {
+  color: #3D273A;
+}
+
+.comment {
+  border-left: 1px dotted #CCCCCC;
+  border-bottom: 1px dotted #CCCCCC;
+}
+
+.new {
+  color: #555555;
+}
+
+.node .links a, .comment .links a {
+  color: #555555;
+}
+
+.messages, .status {
+  background: #F8F8F8;
+  color: #444444;
+}
+
+/**
+ * 5. Sidebar
+ */
+
+.sidebar .block {
+  background:  #F8F8F8;
+  box-shadow: #DFDFDF 0 2px 2px;
+  -moz-box-shadow: #DFDFDF 0 2px 2px;
+  -webkit-box-shadow: #DFDFDF 0 2px 2px;
+}
+
+/**
+ * 6. Footer
+ */
+
+#footer {
+  background: url("../images/footer.png") repeat-x scroll 0 0 #EEECEA;
+}
+
+#footer .block a {
+  border-bottom: dotted 1px #999999;
+  color: #333;
+}
+
+#footer .block a:hover {
+  color: #dd4814;
+}
+
+/**
+ * 7. Nice Menus
+ */
+
+/* Reset Nice Menu CSS */
+
+ul.nice-menu, ul.nice-menu a, ul.nice-menu ul, ul.nice-menu li, ul.nice-menu-down,
+ul.nice-menu-down ul, ul.nice-menu-down li, ul.nice-menu li.menuparent,
+ul.nice-menu li.menuparent a, ul.nice-menu li.menuparent a:hover,
+ul.nice-menu li.menuparent:hover, ul.nice-menu li.menuparent:hover a {
+  background-color: transparent;
+  background-image: none;
+}
+
+ul.nice-menu, ul.nice-menu ul {
+  border-right: 1px solid #F07B55
+}
+
+#header ul.nice-menu li ul {
+  border-right: 1px solid #F07B55
+}
+
+#header ul.nice-menu li ul li {
+  background-color: #E45813;
+}
+
+#header ul.nice-menu li ul li a {
+  background: none;
+  background-color: #EF5A29;
+}
+
+#header ul.nice-menu li ul li a:hover {
+  background-image: url("../images/mainnav.png");
+}
+
+/**
+ * 8. Advanced Forums
+ */
+
+
+/**
+ * 9. Dynamic Persistent Menu
+ */
+#header {
+  background-color: #dd4814;
+}
+
+
+#header .block-dynamic_persistent_menu {
+  height: 0px;
+}
+
+#header .block-dynamic_persistent_menu .dynamic-persistent-menu-sub-menu {
+  -moz-border-radius: 0 0 8px 8px;
+  -moz-box-shadow: 0 1px 1px #c8c8c8;
+  height: 37px;
+  margin: 0 22px;
+  position: relative;
+  left: 30px;
+  width: 96%;
+  background-color: #EFEFEF;
+  color: #FFFFFF;
+  float: left;
+} 
+
+#block-dynamic_persistent_menu-0 {
+  width: 898px;
+}
+
+#header .block-dynamic_persistent_menu .dynamic-persistent-menu-sub-menu a {
+    float: center;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 15px;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    font-family: Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    color: #333333;
+    font-size: 12px;
+    text-shadow: none ;
+    border: 0 none;
+}
+
+#header .block-dynamic_persistent_menu .dynamic-persistent-menu-sub-menu li {
+  border: 0 none;
+  float: left;
+}
+
+#header .block-dynamic_persistent_menu .dynamic-persistent-menu-sub-menu a:focus,
+#header .block-dynamic_persistent_menu .dynamic-persistent-menu-sub-menu
+a:hover {
+  background-image: none;
+  background-color: #e0e0e0;
+  /*color: #DD4814;*/
+}
+
+#header .block-dynamic_persistent_menu .dynamic-persistent-menu-sub-menu
+a.active-trail {
+  background-image: none;
+  background-color: #d8d8d8;
+  color:#dd4814;
+}
+
+
+/**
+ * Ubuntu LoCo Team Info module
+ */
+
+#content #ulti-scheme a {
+  color: #DD4814;
+}
+
+#content div.ulti-meetingscontent,
+#content div.ulti-eventscontent {
+  font-size: 12px;
+  color: #000000;
+}
+
+#content div.ulti-meetingscontent a,
+#content div.ulti-eventscontent a {
+  color: #DD4814;
+}
+
+#content .ulti-memberscontent-memberslist a:hover  {
+  color: #DD4814;
+  /*font-size: 12px;*/
+}
+#content .ulti-memberscontent-memberslist a {
+  color: #000000;
+  font-size: 12px;
+}
+
+#content a.ulti-memberscontent-title,
+#content a.ulti-teamscontent-title  {
+  color: #DD4814;
+  font-size: 12px;
+}
+
+div.ulti-teamscontent-description {
+  font-size: 12px;
+  color: #000000;
+}
+
+/**
+ * Customization
+ */
+
+#content {
+  font-size: 12px;
+}
+
+a {
+  color: #DD4814;
+  text-decoration: none;
+}
+table,th,td {
+  padding: 4px 8px;
+  vertical-align: top;
+  text-align: left;
+}
+tbody {
+border-top: 0px solid #ccc;
+}
+
+div#hostinglogos {
+  clear:both;
+  float:right;
+  margin-right:20px;
+  margin-bottom: 10px;
+  text-align: right;
+  font-weight: bold;
+}
+
+div#hostinglogos span {
+  display: block;
+  margin-bottom: 4px;
+}
+
+div#hostinglogos a {
+  margin-left: 10px;
+  border-bottom:none;
+}
+
+
+/**
+ * Button
+ */
+.button {
+	background-color:#dd4814;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:4px 16px;
+	text-decoration:none;
+}
+.button a {
+  color:#ffffff;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}
+/* This imageless css button was generated by CSSButtonGenerator.com */

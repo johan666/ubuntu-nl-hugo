@@ -6,22 +6,22 @@
   fonts
   scripts? -->
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="/css/ubuntu-2010.css?T" />
+  <link rel="stylesheet" type="text/css" href="/css/base.css" />
 
 </head>
 <body>
   <!-- header -->
   <div id="header"><div class="frame">
-    <div id="top-section">
-        <div class="container">
-          <div id="main-nav">
+        <div class="container" style="width: 980px;" >
             <!-- menuitems -->
+            <ul class="links">
             {{ $currentNode := . }}
             {{ range .Site.Menus.mainnav }}
-              <a href="{{.URL}}" class="main-nav-item{{if $currentNode.HasMenuCurrent "mainnav" . }}current{{end}}">{{.Name}}</a>
+              <li class="menu"><a href="{{.URL}}" class="main-nav-item{{ if $currentNode.HasMenuCurrent "mainnav" . }}-current{{end}}">{{.Name}}</a></li>
               {{end}} <!-- end van range .site.menus.mainnav -->
+            </ul>
 
-          </div>
         </div>
           <div id="page-related">
                 <div id="sub-nav-container" class="container">
@@ -32,9 +32,9 @@
                       Zo ja, ga de Children van het huidige menu af om het submenu te bouwen
                     -->
                         {{ range .Site.Menus.mainnav }} <!-- ga alle menu's af om te zien welke het huidige menu is  -->
-                        {{ if $currentNode.IsMenuCurrent "mainnav" . }}
+                        {{ if $currentNode.HasMenuCurrent "mainnav" . }}
                         {{ range .Children }}
-                        <a href="{{.URL}}" class=sub-nav-item {{if $currentNode.IsMenuCurrent "mainnav" . }}current{{end}}>{{.Name}}</a>
+                        <a href="{{.URL}}" class=sub-nav-item{{ if $currentNode.IsMenuCurrent "mainnav" . }}-current{{end}}>{{.Name}}</a>
                         <!-- <a href="http://wiki.ubuntu-nl.org/" class="sub-nav-item">Documentatie</a>
                         <a href="/" class="sub-nav-item current">Forum</a>
                         <a href="http://ubuntu-nl.org/ondersteuning/live-chat" class="sub-nav-item">Live chat</a>
@@ -53,3 +53,17 @@
 
     </div>
   <!-- content vanuit markdown, evt. in aparte div -->
+  <div id="content">
+   <div class="container" style="width: 980px;">
+                                            <div id="center" >
+
+
+                 <div id="node-1" class="node clear-block">
+
+
+
+<div class="meta">
+
+ </div>
+
+<div class="content">

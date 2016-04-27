@@ -14,7 +14,7 @@ De Ubuntu-gemeenschap helpt mensen graag om problemen op te lossen. Naast digita
 ## Digitale handleidingen en documentatie
 - Aan de slag met Ubuntu bla
 - Werken met Xubuntu
-- Onze documentatie
+- [Onze documentatie](http://wiki.ubuntu-nl.org/)
 
 ## Vragen, antwoorden en overige informatie
 Forum, andere bronnen enz.

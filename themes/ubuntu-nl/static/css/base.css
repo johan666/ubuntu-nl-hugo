@@ -1,0 +1,490 @@
+/* $Id: base.css,v 1.1.2.1 2010/09/11 01:24:58 mtecknology Exp $ */
+
+/**
+ * Index:
+ * 1. Body
+ * 2. Header
+ * 3. Subheader
+ * 4. Content
+ * 5. Sidebar
+ * 6. Footer
+ * 7. Nice Menus
+ * 8. Advanced Forums
+ */
+ 
+
+/**
+ * 1. Body
+ */
+
+* {
+  font-family: 'Ubuntu','Ubuntubeta','Bitstream Vera Sans','DejaVu Sans',Tahoma,sans-serif;
+}
+
+body {
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/**
+ * 2. Header
+ */
+
+#header {
+  height: 65px;
+  margin: 0px;
+  padding: 0 5px;
+  position: relative;
+  font-size: 14px;
+}
+
+#header li {
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+#header li a {
+  border-bottom: 0 none;
+  border-top: 0 none;
+  display: block;
+  float: left;
+  height: 65px;
+  line-height: 65px;
+  margin: 0;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+#header .block {
+  float: right;
+  margin: 20px 5px 0;
+}
+
+#header #search {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 150px;
+}
+
+#header #search * {
+  margin: 0;
+  padding: 0;
+  font-size: 10px !important;
+  font-weight: bold;
+  border: none;
+}
+
+#header #search .form-text {
+  padding: 2px 3px;
+}
+
+#header #search .form-submit {
+  cursor: pointer;
+  float: right;
+  padding: 5px 3px 0 1px;
+}
+
+#logo {
+    margin-top: 0;
+    color: #FFFFFF;
+    line-height: 1.5em;
+    text-align: right;
+    float: right;
+    margin: 0px 10px 5px 0;
+    padding: 10px 10px 0 0;
+    width: 180px;
+    font-size: 0.875em;
+}
+
+#logo img {
+  clear: both;
+  display: block;
+  float: right;
+  height: 27px;
+  width: 118px;
+}
+
+#loco {
+    clear: both;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/**
+ * 3. Subheader
+ */
+
+#subheader {
+  height: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+#subheader .container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#subheader .container-inside {
+  margin: 0 auto;
+  height: 39px;
+  position: relative;
+}
+
+#subheader .block {
+  float: left;
+  display: block;
+}
+
+#subheader .links {
+  float: left;
+  display: block;
+  padding: 0 10px;
+}
+
+#subheader .links li {
+  padding: 0;
+}
+
+#subheader .links a {
+  float: left;
+  padding: 0 15px;
+  margin: 0;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+#subheader h2 {
+  display: none;
+}
+
+#subheader .form-submit {
+  height: 24px;
+  margin: 7px 9px 7px 0;
+  padding: 2px;
+}
+
+#subheader .form-text {
+  height: 16px;
+  margin: 7px 9px 7px 0;
+  padding: 3px;
+  width: 180px;
+}
+
+#subheader .form-text:focus {
+}
+
+#subheader .block-search {
+  float: right;
+}
+
+/* launchpad login */
+#subheader #openid-launchpad-login-form input {
+  border: none;
+  height: 20px;
+  padding-left: 22px;
+  cursor: pointer;
+}
+
+/**
+ * 4. Content
+ */
+
+#content {
+  line-height: 1.4em;
+  overflow: hidden;
+}
+
+#content .container {
+  margin-top: -9px;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+#page-content {
+  display: inline-block;
+  width: 100%;
+}
+
+#content .primary {
+  margin: 5px 0 0 0;
+}
+
+#content .primary a {
+  padding-top: 2px;
+  border-radius: 6px 6px 0px 0px;
+  -moz-border-radius: 6px 6px 0px 0px;
+  -webkit-border-radius: 6px 8px 0px 0px;
+}
+
+#content .messages, .status {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#content .block h2 {
+  font-size: 18px;
+  margin: 0 0 8px;
+  font-weight: normal;
+}
+
+#content .block a {
+  font-size: 13px;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 36px;
+  margin: 6px 0 0 0;
+}
+
+#content h2 {
+  padding-top: 1.7em;
+}
+
+/** #content dd, #content hr, #content p {
+  max-width: 43em;
+}*/
+
+#content li  {
+  max-width: 35em;
+  padding-bottom: 0.9em;
+}
+
+#content p strong {
+  font-size: 1.15em;	
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 1.35em;
+}
+
+#center {
+  overflow: hidden;
+}
+
+#center h2 a {
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 34px;
+}
+
+#center h2 {
+  margin: 4px 0 0 0;
+}
+
+.submitted {
+  font-size: 11px;
+  margin: 0 0 0 5px;
+}
+
+.node {
+  padding: 4px 2px 8px 2px;
+}
+
+.comment h3 {
+  margin: 0 15px 0 0;
+  float: left;
+}
+
+.comment h3 a {
+  text-decoration: none;
+}
+
+.comment {
+  padding: 3px 8px 5px 8px;
+}
+
+.new {
+  float: right;
+}
+
+.node .links a, .comment .links a {
+  font-size: 11px;
+}
+
+.forum-topic-navigation {
+  height: 1.5em;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+.messages, .status {
+  font-size: 14px;
+  margin: 0 10px !important;
+}
+
+/**
+ * 5. Sidebar
+ */
+.sidebar {
+  width: 250px;
+}
+
+
+.sidebar .block {
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: 1px 1px 2px #CCCCCC;
+  margin: 20px 0;
+  padding: 10px 20px;
+  width: 210px;
+}
+
+.sidebars {
+  margin: 0 200px 0 200px;
+  padding: 0 10px;
+}
+
+#sidebar-right {
+  float: right;
+  margin-left: 20px;
+}
+
+#sidebar-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.sidebar .menu {
+  padding: 0 0 0 15px !important;
+}
+
+.sidebar .block ul {
+  padding: 0;
+}
+
+.sidebar .menu li {
+  padding: 0;
+  margin: 0;
+  line-height: 1.2em;
+}
+
+.sidebar .menu a {
+  margin: 0 0 0 -4px;
+}
+
+.sidebar #user-login-form ul, .sidebar #user-login-form li {
+  padding: 0; margin: 0;
+  list-style-type:none;
+}
+
+/**
+ * 6. Footer
+ */
+
+#footer {
+  width: 100%;
+  display: table;
+}
+
+#footer .block {
+  float: left;
+  margin: 5px 10px;
+  padding: 10px;
+  width: 120px;
+
+}
+
+#footer .block h2 {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+}
+
+#footer .block a {
+  display: block;
+  text-decoration: none;
+}
+
+/**
+ * 7. Nice Menus
+ */
+
+/* Reset Nice Menu CSS */
+
+ul.nice-menu, ul.nice-menu a, ul.nice-menu ul, ul.nice-menu li, ul.nice-menu-down,
+ul.nice-menu-down ul, ul.nice-menu-down li, ul.nice-menu li.menuparent,
+ul.nice-menu li.menuparent a, ul.nice-menu li.menuparent a:hover,
+ul.nice-menu li.menuparent:hover, ul.nice-menu li.menuparent:hover a {
+  border: 0;
+  padding:0;
+  margin: 0;
+}
+
+ul.nice-menu, ul.nice-menu ul {
+  position: absolute;
+}
+
+#header ul.nice-menu li ul {
+  margin-top: 44.8px;
+  margin-left: 0px;
+}
+
+#header ul.nice-menu li ul li {
+  height: 20px;
+  min-width: 100%;
+  width: 100%;
+  white-space: nowrap;
+}
+
+#header ul.nice-menu li ul li a {
+  height: 20px;
+  line-height: 20px;
+  width: 100%;
+  padding: 0 0 0 10px;
+}
+
+/**
+ * 8. Advanced Forums
+ */
+
+/**
+ * 9. Dynamic Persistent Menu additions
+ */
+#header {
+  padding: 0 0;
+  -moz-box-shadow: 0 1px 1px #C8C8C8;
+  box-shadow: 0 1px 1px #C8C8C8;
+  position: relative;
+  z-index: 3;
+}
+
+#header .block {
+  float: left;
+  margin: 0px 0px 0;
+}
+
+#content .container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px 0px 0px;
+}
+
+#center {
+  background-color: #FFFFFF;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 1px 1px 2px #CCCCCC;
+  margin: 20px 2px;
+  padding: 0 20px 20px;
+}
+
