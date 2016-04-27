@@ -5,6 +5,8 @@
   <!-- stylesheets
   fonts
   scripts? -->
+  <link type="text/css" rel="stylesheet" media="all" href="/css/system.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="/css/system-menus.css" />
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700" rel="stylesheet" type="text/css" />
   <link type="text/css" rel="stylesheet" media="all" href="/css/ubuntu-2010.css?T" />
   <link rel="stylesheet" type="text/css" href="/css/base.css" />
@@ -12,7 +14,7 @@
 </head>
 <body>
   <!-- header -->
-  <div id="header"><div class="frame">
+    <div id="header">
         <div class="container" style="width: 980px;" >
             <!-- menuitems -->
             <ul class="links">
@@ -21,37 +23,30 @@
               <li class="menu"><a href="{{.URL}}" class="main-nav-item{{ if $currentNode.HasMenuCurrent "mainnav" . }}-current{{end}}">{{.Name}}</a></li>
               {{end}} <!-- end van range .site.menus.mainnav -->
             </ul>
-
         </div>
-          <div id="page-related">
-                <div id="sub-nav-container" class="container">
-                    <div id="sub-nav">
+    </div>
+          <div id="subheader">
+            <div class="container" style="width: 980px;">
+              <div class="container-inside">
+                <ul class="links secondary-links">
                       <!-- submenu items -->
 
                       <!-- FIXME kan dit handiger? Ga alle menus af en kijk of dit het huidige menu is.
                       Zo ja, ga de Children van het huidige menu af om het submenu te bouwen
                     -->
                         {{ range .Site.Menus.mainnav }} <!-- ga alle menu's af om te zien welke het huidige menu is  -->
-                        {{ if $currentNode.HasMenuCurrent "mainnav" . }}
+                        {{ if $currentNode.IsMenuCurrent "mainnav" . }}
                         {{ range .Children }}
-                        <a href="{{.URL}}" class=sub-nav-item{{ if $currentNode.IsMenuCurrent "mainnav" . }}-current{{end}}>{{.Name}}</a>
-                        <!-- <a href="http://wiki.ubuntu-nl.org/" class="sub-nav-item">Documentatie</a>
-                        <a href="/" class="sub-nav-item current">Forum</a>
-                        <a href="http://ubuntu-nl.org/ondersteuning/live-chat" class="sub-nav-item">Live chat</a>
-                        <a href="http://ubuntu-nl.org/ondersteuning/steunpunten" class="sub-nav-item">Steunpunten</a>
-                        <a href="https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl" class="sub-nav-item">Mailinglijst</a>
-                        <a href="http://ubuntu-nl.org/ondersteuning/engelstalig" class="sub-nav-item">Engelstalig</a> -->
+                        <li class="menu"><a href="{{.URL}}" class="sub-nav-item{{ if $currentNode.IsMenuCurrent "mainnav" . }}-current{{end}}">{{.Name}}</a></li>
                         {{end}} <!-- end van range Children -->
-                        {{end}} <!--end van IsMenuCurrent -->
+                        {{end}} <!--end van HasMenuCurrent -->
                         {{end}} <!-- end van range .Site.Menus.mainnav -->
-                    </div>
-                  </div>
+                </ul>
                 </div>
             </div>
 
         </div>
 
-    </div>
   <!-- content vanuit markdown, evt. in aparte div -->
   <div id="content">
    <div class="container" style="width: 980px;">
