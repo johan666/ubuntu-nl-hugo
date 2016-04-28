@@ -24,3 +24,15 @@ MetaDataFormat = "yaml"
   identifier = "forum"
   parent = "ondersteuning"
   url = "https://forum.ubuntu-nl.org"
+
+  [[menu.mainnav]]
+    name = "Mailinglijst"
+    weight = "50"
+    parent = "ondersteuning"
+    url = "https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl"
+
+    [[menu.mainnav]]
+      name = "Gemeenschap"
+      weight = "20"
+      identifier = "gemeenschap"
+      url = "/gemeenschap"
