@@ -1,13 +1,15 @@
 ---
 date: 2016-04-27T18:39:57+02:00
 title: Introductie
+tabbedpage: true
 menu:
   mainnav:
     parent: ubuntu
     weight: 10
+    identifier: introductie
   tabbed:
     weight: 10
-    identifier: introductie
+    identifier: wat-is-ubuntu
 
 ---
 
