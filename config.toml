@@ -67,3 +67,9 @@ MetaDataFormat = "yaml"
       weight = 30
       parent = "nieuws"
       url = "https://www.facebook.com/ubuntunederlands"
+
+    [[menu.mainnav]]
+      name = "Partners"
+      weight = 50
+      identifier = "partners"
+      url = "/partners"
