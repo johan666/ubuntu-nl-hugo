@@ -1,0 +1,19 @@
+<!-- https://wiki.ubuntu.com/LoCoTeamPortal/API -->
+<table>
+  <tr>
+    <th> Evenementen </th>
+    <th> Datum </th>
+    <th> Aankondiging </th>
+    <th> Aanmelden </th>
+  </tr>
+{{ $data := getJSON "http://loco.ubuntu.com/services/events/" "?teams=81" }}
+{{ range sort $data "id" "desc" }}
+  {{ $entry := . }}
+    <tr>
+      <td><a href="http://loco.ubuntu.com/events/ubuntu-nl/{{ $entry.id }}/detail/" target="_blank">{{ $entry.name}}</a></td>
+      <td>{{ $entry.date_begin }}</td>
+      <td><a href="{{ $entry.announce }}" target="_blank">Aankondiging</td>
+      <td><a href="http://loco.ubuntu.com/events/ubuntu-nl/{{ $entry.id }}/register" target="_blank">Aanmelden</a></td>
+    </tr>
+{{ end }}
+</table>
