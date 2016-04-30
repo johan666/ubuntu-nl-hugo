@@ -73,3 +73,9 @@ MetaDataFormat = "yaml"
       weight = 50
       identifier = "partners"
       url = "/partners"
+
+    [[menu.mainnav]]
+      name = "Ubuntu België"
+      weight = 20
+      parent = "partners"
+      url = "http://www.ubuntu-be.org/"
