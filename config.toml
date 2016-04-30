@@ -55,3 +55,15 @@ MetaDataFormat = "yaml"
       weight = 30
       identifier = "agenda"
       url = "/agenda"
+
+    [[menu.mainnav]]
+      name = "Planet"
+      weight = 10
+      parent = "nieuws"
+      url = "/planet"
+
+    [[menu.mainnav]]
+      name = "Facebook"
+      weight = 30
+      parent = "nieuws"
+      url = "https://www.facebook.com/ubuntunederlands"
