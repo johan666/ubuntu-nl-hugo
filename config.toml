@@ -25,57 +25,63 @@ MetaDataFormat = "yaml"
   parent = "ondersteuning"
   url = "https://forum.ubuntu-nl.org"
 
-  [[menu.mainnav]]
-    name = "Mailinglijst"
-    weight = 50
-    parent = "ondersteuning"
-    url = "https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl"
+[[menu.mainnav]]
+  name = "Mailinglijst"
+  weight = 50
+  parent = "ondersteuning"
+  url = "https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl"
 
-  [[menu.mainnav]]
-    name = "Gemeenschap"
-    weight = 20
-    identifier = "gemeenschap"
-    url = "/gemeenschap"
+[[menu.mainnav]]
+  name = "Gemeenschap"
+  weight = 20
+  identifier = "gemeenschap"
+  url = "/gemeenschap"
 
-    [[menu.mainnav]]
-      name = "Wiki"
-      weight = 30
-      parent = "gemeenschap"
-      url = "http://wiki.ubuntu-nl.org/community"
+[[menu.mainnav]]
+  name = "Wiki"
+  weight = 30
+  parent = "gemeenschap"
+  url = "http://wiki.ubuntu-nl.org/community"
 
-    [[menu.mainnav]]
-      name = "Live Chat"
-      weight = 40
-      parent = "gemeenschap"
-      identifier = "live-chat-gemeenschap"
-      url = "/live-chat"
+[[menu.mainnav]]
+  name = "Live Chat"
+  weight = 40
+  parent = "gemeenschap"
+  identifier = "live-chat-gemeenschap"
+  url = "/live-chat"
 
-    [[menu.mainnav]]
-      name = "Agenda"
-      weight = 30
-      identifier = "agenda"
-      url = "/agenda"
+[[menu.mainnav]]
+  name = "Agenda"
+  weight = 30
+  identifier = "agenda"
+  url = "/agenda"
 
-    [[menu.mainnav]]
-      name = "Planet"
-      weight = 10
-      parent = "nieuws"
-      url = "/planet"
+[[menu.mainnav]]
+  name = "Planet"
+  weight = 10
+  parent = "nieuws"
+  url = "/planet"
 
-    [[menu.mainnav]]
-      name = "Facebook"
-      weight = 30
-      parent = "nieuws"
-      url = "https://www.facebook.com/ubuntunederlands"
+[[menu.mainnav]]
+  name = "Facebook"
+  weight = 30
+  parent = "nieuws"
+  url = "https://www.facebook.com/ubuntunederlands"
 
-    [[menu.mainnav]]
-      name = "Partners"
-      weight = 50
-      identifier = "partners"
-      url = "/partners"
+[[menu.mainnav]]
+  name = "Partners"
+  weight = 50
+  identifier = "partners"
+  url = "/partners"
 
-    [[menu.mainnav]]
-      name = "Ubuntu België"
-      weight = 20
-      parent = "partners"
-      url = "http://www.ubuntu-be.org/"
+[[menu.mainnav]]
+  name = "Ubuntu België"
+  weight = 20
+  parent = "partners"
+  url = "http://www.ubuntu-be.org/"
+
+[[menu.mainnav]]
+  name = "Wat is Ubuntu"
+  weight ="10"
+  parent = "introductie"
+  url = "/introductie"

@@ -2,26 +2,27 @@
 <html>
 <head>
   <title>{{ .Title }} | Ubuntu loco Nederland</title>
-  <!-- stylesheets
+  {{/*
+  stylesheets
   fonts
-  scripts? -->
+  scripts?
+  */}}
   <link type="text/css" rel="stylesheet" media="all" href="/css/system.css" />
   <link type="text/css" rel="stylesheet" media="all" href="/css/system-menus.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="/css/tabbed_page.css" />
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700" rel="stylesheet" type="text/css" />
   <link type="text/css" rel="stylesheet" media="all" href="/css/ubuntu-2010.css" />
   <link rel="stylesheet" type="text/css" href="/css/base.css" />
   {{ .Hugo.Generator }}
 </head>
 <body>
-  <!-- header -->
     <div id="header">
         <div class="container" style="width: 980px;" >
-            <!-- menuitems -->
             <ul class="links">
             {{ $currentNode := . }}
             {{ range .Site.Menus.mainnav }}
               <li class="menu {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}active-trail active{{end}}"><a href="{{.URL}}" {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}class="active"{{end}}>{{.Name}}</a></li>
-              {{end}} <!-- end van range .site.menus.mainnav -->
+              {{end}}
             </ul>
             <div id="logo">  <a href="/" title="Ubuntu Loco Nederland">    <img src="/images/ubuntu-logo.png" alt="Ubuntu Loco Nederland" />    <span id="loco">Ubuntu Loco Nederland</span>  </a></div>
         </div>
@@ -30,23 +31,37 @@
             <div class="container" style="width: 980px;">
               <div class="container-inside">
                 <ul class="links secondary-links">
-                      <!-- submenu items -->
+                      {{/*submenu items
 
-                      <!-- FIXME kan dit handiger? Ga alle menus af en kijk of dit het huidige menu is.
+                      FIXME kan dit handiger? Ga alle menus af en kijk of dit het huidige menu is.
                       Zo ja, ga de Children van het huidige menu af om het submenu te bouwen
-                    -->
-                        {{ range .Site.Menus.mainnav }} <!-- ga alle menu's af om te zien welke het huidige menu is  -->
+                      FIXME Het submenu waar de active tabbed page onderdeel van is, moet ook actief worden
+                      */}}
+                        {{ range .Site.Menus.mainnav }}
                         {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}
                         {{ range .Children }}
                         <li class="menu {{ if $currentNode.IsMenuCurrent "mainnav" . }}active-trail active{{end}}"><a href="{{.URL}}" class="{{ if $currentNode.IsMenuCurrent "mainnav" . }}active{{end}}">{{.Name}}</a></li>
-                        {{end}} <!-- end van range Children -->
-                        {{end}} <!--end van HasMenuCurrent -->
-                        {{end}} <!-- end van range .Site.Menus.mainnav -->
+                        {{ if .HasChildren }} {{$.Scratch.Set "tabbedpage" "true" }} {{else}} {{$.Scratch.Set "tabbedpage" "false" }} {{end}}
+                        {{end}}
+                        {{end}}
+                        {{end}}
                 </ul>
                 </div>
             </div>
 
         </div>
+
+{{/* FIXME Hier moet de table of contents komen
+{{ if .Params.toc }}
+<div id="toc" class="col-lg-offset-6 toc {{ if gt (len .TableOfContents) 2500 }}compact{{ end }}">
+{{ .TableOfContents }}
+</div>
+{{ end }}
+https://discuss.gohugo.io/t/tableofcontents/1616/4
+https://discuss.gohugo.io/t/exclude-some-head-levels-from-tableofcontents/1380/2
+FIXME CSS voor de toc maken
+*/}}
+
 
   <!-- content vanuit markdown, evt. in aparte div -->
   <div id="content">
@@ -63,3 +78,45 @@
  </div>
 
 <div class="content">
+
+{{/* Tabbed pages */}}
+
+{{/* debug info
+{{ printf "%#v" .Params.menu }}
+<p>
+{{ printf "%#v" .Params.menu.mainnav.parent }}
+<p>
+{{ printf "%#v" .Params.menu.mainnav.identifier }}
+<p>
+{{ printf "%#v" .Site.Menus.mainnav }}
+<p>
+//{{ printf "%#v" $currentNode.Params.menu.mainnav.identifier }}
+<p>
+{{ $.Scratch.Get "tabbedpage" }}
+/////
+{{ range .Site.Menus.mainnav }}
+{{ range .Children}}
+{{ printf "%#v" .Name }}
+{{end}}
+{{end}}
+*/}}
+
+{{ if eq ($.Scratch.Get "tabbedpage") "true" }}
+  {{if .IsHome }}
+    {{/* Doe niks. Heel stom maar er lijkt geen IF NOT te zijn */}}
+  {{else}}
+  <div id="tabbed-page-wrapper"
+    style="min-height: 800px; background-color:  ">
+    <ul id="tabbed-page-tabs">
+      {{ range .Site.Menus.mainnav }}
+      {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}
+        {{ range .Children }}{{ range .Children }} {{/* We moeten de kinderen van de kinderen hebben */}}
+        <li class="tabbed-page-tab {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}tabbed-page-tab-active{{end}}" style="background-color: ; width: 20%;">
+          <a href="{{.URL}}" {{ if or ($currentNode.IsMenuCurrent "tabbed" .) ($currentNode.HasMenuCurrent "tabbed" .) }}class="active"{{end}}>{{.Name}}</a></li>
+        {{end}}{{end}}
+      {{end}}
+      {{end}}
+    </ul>
+    <div id="tabbed-page-content">
+  {{end}}
+{{end}}
