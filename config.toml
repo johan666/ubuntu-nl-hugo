@@ -82,6 +82,13 @@ MetaDataFormat = "yaml"
 
 [[menu.mainnav]]
   name = "Wat is Ubuntu"
-  weight ="10"
+  weight = 10
   parent = "introductie"
   url = "/introductie"
+
+[[menu.mainnav]]
+  name = "Introductie"
+  weight = 10
+  parent = "desktop"
+  url = "/desktop"
+  identifier = "desktop-introductie"

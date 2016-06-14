@@ -14,6 +14,7 @@ Aartsbisschop [Desmond Tutu](http://nl.wikipedia.org/wiki/Desmond_Tutu) (1999):
 
 >"Iemand met ubuntu staat open voor en is toegankelijk voor anderen, wijdt zich aan anderen, voelt zich niet bedreigd door het kunnen van anderen omdat hij of zij genoeg zelfvertrouwen put uit de wetenschap dat hij of zij onderdeel is van een groter geheel en krimpt ineen wanneer anderen worden vernederd of wanneer anderen worden gemarteld of onderdrukt."
 
+{{< youtube UT-3Eh65kkA >}}
 
 ## Een besturingssysteem
 Een besturingssysteem is de software die je in staat stelt om een computer te gebruiken en er allerlei toepassingen op uit te voeren.

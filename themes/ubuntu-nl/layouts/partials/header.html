@@ -109,11 +109,13 @@ FIXME CSS voor de toc maken
     style="min-height: 800px; background-color:  ">
     <ul id="tabbed-page-tabs">
       {{ range .Site.Menus.mainnav }}
-      {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}
-        {{ range .Children }}{{ range .Children }} {{/* We moeten de kinderen van de kinderen hebben */}}
-        <li class="tabbed-page-tab {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}tabbed-page-tab-active{{end}}" style="background-color: ; width: 20%;">
+      {{ if $currentNode.HasMenuCurrent "mainnav" . }}
+        {{ range .Children }}
+        {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}
+          {{ range .Children }} {{/* We moeten de kinderen van de kinderen hebben */}}
+          <li class="tabbed-page-tab {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}tabbed-page-tab-active{{end}}" style="background-color: ; width: 20%;">
           <a href="{{.URL}}" {{ if or ($currentNode.IsMenuCurrent "tabbed" .) ($currentNode.HasMenuCurrent "tabbed" .) }}class="active"{{end}}>{{.Name}}</a></li>
-        {{end}}{{end}}
+        {{end}}{{end}}{{end}}
       {{end}}
       {{end}}
     </ul>
