@@ -3,7 +3,7 @@
     background-color: #EFEFEF;
 }
 
-#tabbed-page-tabs { 
+#tabbed-page-tabs {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@
 }
 
 .tabbed-page-tab:hover a {
-    background-image: url("shadow.png");
+    background-image: url("/images/shadow.png");
 }
 
 .tabbed-page-tab a {
@@ -29,11 +29,11 @@
 }
 
 .tabbed-page-tab-active {
-    background-color: #DD4814;    
+    background-color: #DD4814;
 }
 
 .tabbed-page-tab-active:hover a {
-    background-image: url("shadow.png");
+    background-image: url("/images/shadow.png");
 }
 
 #content .tabbed-page-tab-active a {

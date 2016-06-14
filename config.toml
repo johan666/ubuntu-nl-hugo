@@ -92,3 +92,10 @@ MetaDataFormat = "yaml"
   parent = "desktop"
   url = "/desktop"
   identifier = "desktop-introductie"
+
+  [[menu.mainnav]]
+    name = "Introductie"
+    weight = 10
+    parent = "server"
+    identifier = "server-introductie"
+    url = "/server"

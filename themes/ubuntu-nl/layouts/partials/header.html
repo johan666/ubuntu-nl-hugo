@@ -100,11 +100,12 @@ FIXME CSS voor de toc maken
 {{end}}
 {{end}}
 */}}
-
+{{/* FIXME Alle tabbed pages zou via een partial moeten */}}
 {{ if eq ($.Scratch.Get "tabbedpage") "true" }}
   {{if .IsHome }}
-    {{/* FIXME Doe niks. Heel stom maar er lijkt geen IF NOT te zijn */}}
+    {{/* FIXME Doe niks. Heel stom maar er lijkt geen IF NOT te zijn. */}}
   {{else}}
+  <h2><a href="" title=""></a></h2>
   <div id="tabbed-page-wrapper"
     style="min-height: 800px; background-color:  ">
     <ul id="tabbed-page-tabs">

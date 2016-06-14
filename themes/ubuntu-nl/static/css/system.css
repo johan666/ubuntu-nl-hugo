@@ -34,7 +34,7 @@ tbody th {
 thead th {
   text-align: left; /* LTR */
   padding-right: 1em; /* LTR */
-  border-bottom: 3px solid #ccc;
+  /*border-bottom: 3px solid #ccc;*/
 }
 
 /*
