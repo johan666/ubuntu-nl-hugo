@@ -7,7 +7,7 @@ menu:
     weight: 20
     identifier: desktop
 ---
-## Dé desktop
+# Dé desktop
 Intuïtief, snel, virusvrij, onderhoudsarm, geen reclame of ongewenste (probeer)software en standaard voorzien alle basisbenodigdheden. Dát is Ubuntu in een notendop.
 
 Geniet van de stijlvolle eenvoud van de intuïtieve werkomgeving van Ubuntu. Het systeem is en blijft altijd snel en is door het niet bestaan van virussen en malware ontzettend veilig.
@@ -19,7 +19,7 @@ Met de Starter (linkerbalk) kunt u snel uw favoriete software openen en tussen o
 
 Ubuntu is helder, gestroomlijnd, volledig Nederlandstalig en, niet onbelangrijk, Ubuntu Desktop is eenvoudig aan te passen aan uw eigen wensen. Bijvoorbeeld door een ander thema te installeren of de Starter anders in te delen.
 
-### Wilt u Ubuntu uitproberen?
+## Wilt u Ubuntu uitproberen?
 
 {{< button url="/download" text="Klik dan hier om Ubuntu te downloaden" >}}
 

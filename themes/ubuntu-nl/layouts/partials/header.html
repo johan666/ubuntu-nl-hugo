@@ -103,7 +103,7 @@ FIXME CSS voor de toc maken
 
 {{ if eq ($.Scratch.Get "tabbedpage") "true" }}
   {{if .IsHome }}
-    {{/* Doe niks. Heel stom maar er lijkt geen IF NOT te zijn */}}
+    {{/* FIXME Doe niks. Heel stom maar er lijkt geen IF NOT te zijn */}}
   {{else}}
   <div id="tabbed-page-wrapper"
     style="min-height: 800px; background-color:  ">
@@ -112,8 +112,9 @@ FIXME CSS voor de toc maken
       {{ if $currentNode.HasMenuCurrent "mainnav" . }}
         {{ range .Children }}
         {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}
+          {{ $len := len .Children }}
           {{ range .Children }} {{/* We moeten de kinderen van de kinderen hebben */}}
-          <li class="tabbed-page-tab {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}tabbed-page-tab-active{{end}}" style="background-color: ; width: 20%;">
+          <li class="tabbed-page-tab {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}tabbed-page-tab-active{{end}}" style="background-color: ; width: {{div 100 $len}}%;">
           <a href="{{.URL}}" {{ if or ($currentNode.IsMenuCurrent "tabbed" .) ($currentNode.HasMenuCurrent "tabbed" .) }}class="active"{{end}}>{{.Name}}</a></li>
         {{end}}{{end}}{{end}}
       {{end}}
