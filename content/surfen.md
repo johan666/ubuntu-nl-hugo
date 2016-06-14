@@ -3,7 +3,7 @@ date: 2016-06-14T16:31:26+02:00
 title: Webbrowsen
 menu:
   mainnav:
-    parent: desktop
+    parent: desktop-introductie
     weight: 20
     identifier: surfen
     name: Internetten

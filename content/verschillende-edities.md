@@ -3,7 +3,7 @@ date: 2016-06-01T15:55:44+02:00
 title: Verschillende edities
 menu:
   mainnav:
-    parent: introductie
+    parent: ubuntu-tour
     weight: 40
     identifier: verschillende-edities
     name: Verschillende edities

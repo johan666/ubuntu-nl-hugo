@@ -3,7 +3,7 @@ date: 2016-06-14T17:32:11+02:00
 title: Muziek en Mobiel
 menu:
   mainnav:
-    parent: desktop
+    parent: desktop-introductie
     weight: 50
     identifier: muziek-en-mobiel
     name: Muziek en Mobiel

@@ -3,9 +3,10 @@ date: 2016-04-27T18:39:57+02:00
 title: Introductie
 menu:
   mainnav:
-    parent: ubuntu
+    parent: ubuntu-tour
     weight: 10
     identifier: introductie
+    name: Wat is Ubuntu
 
 ---
 

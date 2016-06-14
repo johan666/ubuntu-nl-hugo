@@ -3,7 +3,7 @@ date: 2016-06-01T11:03:23+02:00
 title: Vrij
 menu:
   mainnav:
-    parent: introductie
+    parent: ubuntu-tour
     weight: 20
     identifier: vrij
     name: Vrij

@@ -3,7 +3,7 @@ date: 2016-06-01T16:18:58+02:00
 title: Ondersteuningstermijn
 menu:
   mainnav:
-    parent: introductie
+    parent: ubuntu-tour
     weight: 50
     identifier: ondersteuningstermijn
     name: Ondersteuningstermijn

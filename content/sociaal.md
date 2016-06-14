@@ -3,7 +3,7 @@ date: 2016-06-14T17:28:51+02:00
 title: Sociale Media
 menu:
   mainnav:
-    parent: desktop
+    parent: desktop-introductie
     weight: 40
     identifier: sociaal
     name: Sociale Media

@@ -3,9 +3,9 @@ date: 2016-06-14T19:49:50+02:00
 title: Server
 menu:
   mainnav:
-    parent: ubuntu
-    weight: 30
-    identifier: server
+    parent: server
+    weight: 10
+    identifier: server-introductie
 ---
 
 # Ubuntu server

@@ -3,8 +3,8 @@ date: 2016-06-14T15:53:28+02:00
 title: Desktop
 menu:
   mainnav:
-    parent: ubuntu
-    weight: 20
+    parent: desktop-introductie
+    weight: 10
     identifier: desktop
 ---
 # Dé desktop

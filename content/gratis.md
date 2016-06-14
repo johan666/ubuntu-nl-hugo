@@ -3,7 +3,7 @@ date: 2016-06-01T14:59:36+02:00
 title: Gratis
 menu:
   mainnav:
-    parent: introductie
+    parent: ubuntu-tour
     weight: 30
     identifier: gratis
     name: Gratis

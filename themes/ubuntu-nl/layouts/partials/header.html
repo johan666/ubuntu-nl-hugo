@@ -115,8 +115,8 @@ FIXME CSS voor de toc maken
         {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}
           {{ $len := len .Children }}
           {{ range .Children }} {{/* We moeten de kinderen van de kinderen hebben */}}
-          <li class="tabbed-page-tab {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}tabbed-page-tab-active{{end}}" style="background-color: ; width: {{div 100 $len}}%;">
-          <a href="{{.URL}}" {{ if or ($currentNode.IsMenuCurrent "tabbed" .) ($currentNode.HasMenuCurrent "tabbed" .) }}class="active"{{end}}>{{.Name}}</a></li>
+          <li class="tabbed-page-tab {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}tabbed-page-tab-active{{end}}" style="background-color: ; width: {{div 100.0 $len}}%;">
+          <a href="{{.URL}}" {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}class="active"{{end}}>{{.Name}}</a></li>
         {{end}}{{end}}{{end}}
       {{end}}
       {{end}}

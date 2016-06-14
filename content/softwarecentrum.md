@@ -3,7 +3,7 @@ date: 2016-06-14T18:30:54+02:00
 title: Softwarecentrum
 menu:
   mainnav:
-    parent: desktop
+    parent: desktop-introductie
     weight: 70
     identifier: Softwarecentrum
     name: Softwarecentrum

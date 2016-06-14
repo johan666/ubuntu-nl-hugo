@@ -3,7 +3,7 @@ date: 2016-06-14T17:26:13+02:00
 title: Kantoor
 menu:
   mainnav:
-    parent: desktop
+    parent: desktop-introductie
     weight: 30
     identifier: kantoor
     name: Kantoor

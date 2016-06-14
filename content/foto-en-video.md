@@ -3,7 +3,7 @@ date: 2016-06-14T17:54:06+02:00
 title: Foto en Video
 menu:
   mainnav:
-    parent: desktop
+    parent: desktop-introductie
     weight: 60
     identifier: foto-en-video
     name: Foto en Video

@@ -81,21 +81,29 @@ MetaDataFormat = "yaml"
   url = "http://www.ubuntu-be.org/"
 
 [[menu.mainnav]]
-  name = "Wat is Ubuntu"
-  weight = 10
-  parent = "introductie"
-  url = "/introductie"
-
-[[menu.mainnav]]
   name = "Introductie"
   weight = 10
-  parent = "desktop"
+  parent = "ubuntu"
+  url = "/introductie"
+  identifier = "ubuntu-tour"
+
+[[menu.mainnav]]
+  name = "Desktop"
+  weight = 20
+  parent = "ubuntu"
   url = "/desktop"
   identifier = "desktop-introductie"
 
-  [[menu.mainnav]]
-    name = "Introductie"
-    weight = 10
-    parent = "server"
-    identifier = "server-introductie"
-    url = "/server"
+[[menu.mainnav]]
+  name = "Server"
+  weight = 30
+  parent = "ubuntu"
+  identifier = "server"
+  url = "/server"
+
+[[menu.mainnav]]
+  name = "Afgeleiden"
+  weight = 40
+  parent = "ubuntu"
+  identifier = "afgeleiden"
+  url = "/afgeleiden"
