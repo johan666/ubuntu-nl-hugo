@@ -20,7 +20,7 @@ Als uw computer minimaal beschikt over een 800 MHz Pentium III-processor, 128 MB
 
 ## Wat moet ik doen met de download en hoe installeer ik Lubuntu hiervan?
 Met de download moet u eenvoudigweg een opstartbare USB-stick maken. Hoe u dat doet wordt stap-voor-stap uitgelegd op de volgende pagina: [Een Live USB-stick maken](http://wiki.ubuntu-nl.org/InstallatieLiveUSB)
-Na het maken van de opstartbare USB-stick kunt u Lubuntu direct installeren. Het installeren van Xubuntu is eenvoudig en wordt stap-voor-stap uitgelegd op de volgende pagina: [Ubuntu installeren](http://wiki.ubuntu-nl.org/InstallatieDesktop) (de pagina is gemaakt voor Ubuntu maar de installatie van Lubuntu verloopt exact hetzelfde)
+Na het maken van de opstartbare USB-stick kunt u Lubuntu direct installeren. Het installeren van Lubuntu is eenvoudig en wordt stap-voor-stap uitgelegd op de volgende pagina: [Ubuntu installeren](http://wiki.ubuntu-nl.org/InstallatieDesktop) (de pagina is gemaakt voor Ubuntu maar de installatie van Lubuntu verloopt exact hetzelfde)
 
 
 ## Heeft u hulp nodig bij het downloaden/installeren of heeft u andere vragen?

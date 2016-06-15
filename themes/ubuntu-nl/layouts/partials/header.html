@@ -50,7 +50,6 @@
             </div>
 
         </div>
-
 {{/* FIXME Hier moet de table of contents komen
 {{ if .Params.toc }}
 <div id="toc" class="col-lg-offset-6 toc {{ if gt (len .TableOfContents) 2500 }}compact{{ end }}">
@@ -66,18 +65,6 @@ FIXME CSS voor de toc maken
   <!-- content vanuit markdown, evt. in aparte div -->
   <div id="content">
    <div class="container" style="width: 980px;">
-                                            <div id="center" >
-
-
-                 <div id="node-1" class="node clear-block">
-
-
-
-<div class="meta">
-
- </div>
-
-<div class="content">
 
 {{/* Tabbed pages */}}
 
@@ -100,27 +87,3 @@ FIXME CSS voor de toc maken
 {{end}}
 {{end}}
 */}}
-{{/* FIXME Alle tabbed pages zou via een partial moeten */}}
-{{ if eq ($.Scratch.Get "tabbedpage") "true" }}
-  {{if .IsHome }}
-    {{/* FIXME Doe niks. Heel stom maar er lijkt geen IF NOT te zijn. */}}
-  {{else}}
-  <h2><a href="" title=""></a></h2>
-  <div id="tabbed-page-wrapper"
-    style="min-height: 800px; background-color:  ">
-    <ul id="tabbed-page-tabs">
-      {{ range .Site.Menus.mainnav }}
-      {{ if $currentNode.HasMenuCurrent "mainnav" . }}
-        {{ range .Children }}
-        {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}
-          {{ $len := len .Children }}
-          {{ range .Children }} {{/* We moeten de kinderen van de kinderen hebben */}}
-          <li class="tabbed-page-tab {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}tabbed-page-tab-active{{end}}" style="background-color: ; width: {{div 100.0 $len}}%;">
-          <a href="{{.URL}}" {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}class="active"{{end}}>{{.Name}}</a></li>
-        {{end}}{{end}}{{end}}
-      {{end}}
-      {{end}}
-    </ul>
-    <div id="tabbed-page-content">
-  {{end}}
-{{end}}

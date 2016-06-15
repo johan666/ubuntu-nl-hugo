@@ -26,6 +26,5 @@ Ook voor oudere computers zijn er oplossingen. U kunt kiezen voor een lichtere v
 Met de download moet u eenvoudigweg een opstartbare USB-stick maken. Hoe u dat doet wordt stap-voor-stap uitgelegd op de volgende pagina: [Een Live USB-stick maken](http://wiki.ubuntu-nl.org/InstallatieLiveUSB)
 Na het maken van de opstartbare USB-stick kunt u Xubuntu direct installeren. Het installeren van Xubuntu is eenvoudig en wordt stap-voor-stap uitgelegd op de volgende pagina: [Ubuntu installeren](http://wiki.ubuntu-nl.org/InstallatieDesktop) (de pagina is gemaakt voor Ubuntu maar de installatie van Xubuntu verloopt exact hetzelfde)
 
-
 ## Heeft u hulp nodig bij het downloaden/installeren of heeft u andere vragen?
 Wij helpen u graag op ons [forum](https://forum.ubuntu-nl.org/). Voor andere vormen van ondersteuning, zoals handleidingen of Ubuntu-steunpunten in uw buurt, zie onze [ondersteuningspagina](/ondersteuning).

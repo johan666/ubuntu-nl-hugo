@@ -1,5 +1,15 @@
 {{ partial "header.html" . }}
-  {{/* <h1>{{ .Title }}</h1> */}}
-  {{ .Content }}
-  {{/* <p><a href="{{ .Site.BaseURL }}">Home</a></p> */}}
+{{/* <h1>{{ .Title }}</h1> */}}
+{{ if $.Param "toc" }}
+  {{ partial "toc.html" . }}
+{{end}}
+<div id="center" class="sidebar-right">
+  <div id="node-1" class="node clear-block">
+   <div class="meta">
+   </div>
+   <div class="content">
+
+{{ partial "tabbedpage.html" . }}
+{{ .Content }}
+{{/* <p><a href="{{ .Site.BaseURL }}">Home</a></p> */}}
 {{ partial "footer.html" . }}

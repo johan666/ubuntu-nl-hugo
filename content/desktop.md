@@ -20,6 +20,7 @@ Met de Starter (linkerbalk) kunt u snel uw favoriete software openen en tussen o
 Ubuntu is helder, gestroomlijnd, volledig Nederlandstalig en, niet onbelangrijk, Ubuntu Desktop is eenvoudig aan te passen aan uw eigen wensen. Bijvoorbeeld door een ander thema te installeren of de Starter anders in te delen.
 
 ## Wilt u Ubuntu uitproberen?
+<p></p>
 {{< button url="/download" text="Klik dan hier om Ubuntu te downloaden" >}}
 
 

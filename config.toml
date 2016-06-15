@@ -75,6 +75,12 @@ MetaDataFormat = "yaml"
   url = "/partners"
 
 [[menu.mainnav]]
+  name = "Donaties"
+  weight = "60"
+  identifier = "donaties"
+  url = "http://sounl.org/?q=node/34"
+
+[[menu.mainnav]]
   name = "Ubuntu België"
   weight = 20
   parent = "partners"
