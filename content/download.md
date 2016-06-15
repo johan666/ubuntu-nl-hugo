@@ -19,7 +19,6 @@ U downloadt Ubuntu in een zogeheten "Live-versie". Dit betekent dat u Ubuntu gew
 32-bits internationale versie {{< button url="http://nl.releases.ubuntu.com/xenial/ubuntu-16.04-desktop-i386.iso" text="Download" >}}
 
 **Vragen over de download**
-
 _Wat voor computer heb ik nodig om Ubuntu Desktop te kunnen gebruiken?_
 
 Als uw computer minimaal beschikt over een 2 GHz processor, 2 GB RAM-geheugen (werkgeheugen) en 25 GB vrije schijfruimte, kunt u Ubuntu Desktop gebruiken.
@@ -42,6 +41,7 @@ Dit is de aanbevolen versie om te downloaden, want deze versie is een LTS-versie
 Omdat Ubuntu gratis en vrij is, kunt u zo vaak en op zoveel computers installeren als u wilt!
 
 64-bits internationale versie {{< button url="http://nl.releases.ubuntu.com/xenial/ubuntu-16.04-server-amd64.iso" text="Download" >}}
+
 32-bits internationale versie {{< button url="http://nl.releases.ubuntu.com/xenial/ubuntu-16.04-server-i386.iso" text="Download" >}}
 
 -----
