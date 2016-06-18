@@ -46,12 +46,59 @@ Omdat Ubuntu gratis en vrij is, kunt u zo vaak en op zoveel computers installere
 
 -----
 # Afgeleiden {#afgeleiden}
-- **Ubuntu Mate**
-  - 32-bit [Download](http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-i386.iso)
-  - 64-bit [Download](http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso)
-- **Lubuntu** ([Meer informatie](/lubuntu))
-  - 32-bit [Download](http://cdimage.ubuntu.com/lubuntu/releases/16.04/release/lubuntu-16.04-desktop-i386.iso)
-  - 64-bit [Download](http://cdimage.ubuntu.com/lubuntu/releases/16.04/release/lubuntu-16.04-desktop-amd64.iso)
-- **Kubuntu** ([Meer informatie](/kubuntu))
-  - 32-bit [Download](http://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04-desktop-i386.iso)
-  - 64-bit [Download](http://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04-desktop-amd64.iso)
+Hier staan alle internationale, officiële afgeleiden van Ubuntu 16.04:
+
+- **Kubuntu Desktop 16.04 LTS** ([Meer informatie](/kubuntu))
+  - 32-bit: [Download](http://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04-desktop-i386.iso)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04-desktop-amd64.iso)
+- **Lubuntu Desktop 16.04 LTS** ([Meer informatie](/lubuntu))
+  - 32-bit: [Download](http://cdimage.ubuntu.com/lubuntu/releases/16.04/release/lubuntu-16.04-desktop-i386.iso)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/lubuntu/releases/16.04/release/lubuntu-16.04-desktop-amd64.iso)
+- **Mythbuntu Desktop 16.04 LTS** ([Meer informatie URL BESTAAT NOG NIET](/mythbuntu))
+  - 32-bit: [Download](http://cdimage.ubuntu.com/mythbuntu/releases/16.04/release/mythbuntu-16.04-desktop-i386.iso)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/mythbuntu/releases/16.04/release/mythbuntu-16.04-desktop-amd64.iso)
+- **Ubuntu Gnome Desktop 16.04 LTS** ([Meer informatie](/ubuntu-gnome))
+  - 32-bit: [Download](http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/ubuntu-gnome-16.04-desktop-i386.iso)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/ubuntu-gnome-16.04-desktop-amd64.iso)
+- **Ubuntu Mate Desktop 16.04 LTS** ([Meer informatie](/ubuntu-mate))
+  - 32-bit: [Download](http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-i386.iso)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso)
+- **Ubuntu Studio DVD 16.04 LTS** ([Meer informatie URL BESTAAT NOG NIET](/ubuntu-studio))
+  - 32-bit: [Download](http://cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/ubuntustudio-16.04-dvd-i386.iso)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/ubuntustudio-16.04-dvd-amd64.iso)
+- **Xubuntu Desktop 16.04 LTS** ([Meer informatie](/xubuntu))
+  - 32-bit: [Download](http://cdimage.ubuntu.com/xubuntu/releases/16.04/release/xubuntu-16.04-desktop-i386.iso)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/xubuntu/releases/16.04/release/xubuntu-16.04-desktop-amd64.iso)
+
+-----
+# Torrents {#torrents}
+
+Alle bovenstaande Ubuntu en Ubuntu-afgeleiden zijn ook te downloaden via torrents:
+
+- **Ubuntu Desktop 16.04 LTS**
+  - 32-bit: [Download](http://nl.releases.ubuntu.com/xenial/ubuntu-16.04-desktop-i386.iso.torrent)
+  - 64-bit: [Download](http://nl.releases.ubuntu.com/xenial/ubuntu-16.04-desktop-amd64.iso.torrent)
+- **Ubuntu Server 16.04 LTS**
+  - 32-bit: [Download](http://nl.releases.ubuntu.com/xenial/ubuntu-16.04-server-i386.iso.torrent)
+  - 64-bit: [Download](http://nl.releases.ubuntu.com/xenial/ubuntu-16.04-server-amd64.iso.torrent)
+- **Kubuntu Desktop 16.04 LTS**
+  - 32-bit: [Download](http://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04-desktop-i386.iso.torrent)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04-desktop-amd64.iso.torrent)
+- **Lubuntu Desktop 16.04 LTS**
+  - 32-bit: [Download](http://cdimage.ubuntu.com/lubuntu/releases/16.04/release/lubuntu-16.04-desktop-i386.iso.torrent)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/lubuntu/releases/16.04/release/lubuntu-16.04-desktop-amd64.iso.torrent)
+- **Mythbuntu Desktop 16.04 LTS**
+  - 32-bit: [Download](http://cdimage.ubuntu.com/mythbuntu/releases/16.04/release/mythbuntu-16.04-desktop-i386.iso.torrent)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/mythbuntu/releases/16.04/release/mythbuntu-16.04-desktop-amd64.iso.torrent)
+- **Ubuntu Gnome Desktop 16.04 LTS**
+  - 32-bit: [Download](http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/ubuntu-gnome-16.04-desktop-i386.iso.torrent)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/ubuntu-gnome-16.04-desktop-amd64.iso.torrent)
+- **Ubuntu Mate Desktop 16.04 LTS**
+  - 32-bit: [Download](http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-i386.iso.torrent)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso.torrent)
+- **Ubuntu Studio DVD 16.04 LTS**
+  - 32-bit: [Download](http://cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/ubuntustudio-16.04-dvd-i386.iso.torrent)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/ubuntustudio/releases/16.04/release/ubuntustudio-16.04-dvd-amd64.iso.torrent)
+- **Xubuntu Desktop 16.04 LTS**
+  - 32-bit: [Download](http://cdimage.ubuntu.com/xubuntu/releases/16.04/release/xubuntu-16.04-desktop-i386.iso.torrent)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/xubuntu/releases/16.04/release/xubuntu-16.04-desktop-amd64.iso.torrent)
