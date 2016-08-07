@@ -4,7 +4,7 @@ title: Xubuntu
 menu:
   mainnav:
     parent: afgeleiden
-    weight: 20
+    weight: 90
     identifier: xubuntu
     name: Xubuntu
 ---

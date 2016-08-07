@@ -4,7 +4,7 @@ title: Ubuntu GNOME
 menu:
   mainnav:
     parent: afgeleiden
-    weight: 40
+    weight: 50
     identifier: ubuntu-gnome
     name: Ubuntu GNOME
 ---

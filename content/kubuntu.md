@@ -4,7 +4,7 @@ title: Kubuntu
 menu:
   mainnav:
     parent: afgeleiden
-    weight: 50
+    weight: 30
     identifier: kubuntu
     name: Kubuntu
 ---

@@ -48,6 +48,9 @@ Omdat Ubuntu gratis en vrij is, kunt u zo vaak en op zoveel computers installere
 # Afgeleiden {#afgeleiden}
 Hier staan alle internationale, officiële afgeleiden van Ubuntu 16.04:
 
+- **Edubuntu Desktop 14.04.4 LTS** ([Meer informatie](/edubuntu))
+  - 32-bit: [Download](http://cdimage.ubuntu.com/edubuntu/releases/14.04.4/release/edubuntu-14.04.4-dvd-i386.iso)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/edubuntu/releases/14.04.4/release/edubuntu-14.04.4-dvd-amd64.iso)
 - **Kubuntu Desktop 16.04 LTS** ([Meer informatie](/kubuntu))
   - 32-bit: [Download](http://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04-desktop-i386.iso)
   - 64-bit: [Download](http://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04-desktop-amd64.iso)
@@ -81,6 +84,9 @@ Alle bovenstaande Ubuntu en Ubuntu-afgeleiden zijn ook te downloaden via torrent
 - **Ubuntu Server 16.04 LTS**
   - 32-bit: [Download](http://nl.releases.ubuntu.com/xenial/ubuntu-16.04-server-i386.iso.torrent)
   - 64-bit: [Download](http://nl.releases.ubuntu.com/xenial/ubuntu-16.04-server-amd64.iso.torrent)
+- **Edubuntu Desktop 14.04.4 LTS**
+  - 32-bit: [Download](http://cdimage.ubuntu.com/edubuntu/releases/14.04.4/release/edubuntu-14.04.4-dvd-i386.iso.torrent)
+  - 64-bit: [Download](http://cdimage.ubuntu.com/edubuntu/releases/14.04.4/release/edubuntu-14.04.4-dvd-amd64.iso.torrent)
 - **Kubuntu Desktop 16.04 LTS**
   - 32-bit: [Download](http://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04-desktop-i386.iso.torrent)
   - 64-bit: [Download](http://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04-desktop-amd64.iso.torrent)

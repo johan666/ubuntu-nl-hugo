@@ -4,7 +4,7 @@ title: Lubuntu
 menu:
   mainnav:
     parent: afgeleiden
-    weight: 30
+    weight: 40
     identifier: lubuntu
     name: Lubuntu
 ---
