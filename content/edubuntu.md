@@ -41,6 +41,4 @@ Voor de meest recente versie van Edubuntu, versie 14.04.4 LTS, gelden de volgend
 
 Specificaties zijn een vertaling van de [officiële Edubuntu installatie-gids (Engels)](https://www.edubuntu.org/documentation/12.04/installation-guide).
 
-**Moet er nog wat gezegd worden over de afname van updates voor Edubuntu?**
-
 {{< button url="/download" text="Klik hier om naar de downloadpagina te gaan" >}}
