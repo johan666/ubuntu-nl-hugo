@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://ubuntu-nl.org/"
 languageCode = "nl-nl"
 title = "Hugo testsite"
 theme = "ubuntu-nl"
