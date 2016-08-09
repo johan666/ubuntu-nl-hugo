@@ -5,6 +5,9 @@ menu:
   mainnav:
     parent: gemeenschap
     weight: 20
+aliases:
+  - /gemeenschap/meedoen
+  - /node/136
 ---
 # Meedoen
 Meedoen met Ubuntu-NL is leuk en er is voor iedereen wat te doen! Op deze pagina vindt u enkele activiteiten om aan mee te doen.

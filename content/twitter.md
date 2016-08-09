@@ -5,6 +5,8 @@ menu:
   mainnav:
     parent: nieuws
     weight: 20
-
+aliases:
+  - /nieuws/twitter
+  - /node/22
 ---
 Natuurlijk is Ubuntu-NL ook op Twitter te vinden. Om ons te volgen gaat u naar het [account op de website van Twitter](https://twitter.com/UbuntuNL) zelf.

@@ -5,6 +5,8 @@ menu:
   mainnav:
     weight: 50
     parent: partners
+aliases:
+  - /node/36
 ---
 
 # Onze sponsoren

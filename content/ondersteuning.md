@@ -5,6 +5,8 @@ menu:
   mainnav:
     weight: 10
     identifier: ondersteuning
+aliases:
+  - /node/4
 ---
 # Hulp of ondersteuning bij Ubuntu, Xubuntu, Lubuntu of een andere afgeleide
 

@@ -7,6 +7,9 @@ menu:
     weight: 40
     identifier: verschillende-edities
     name: Verschillende edities
+aliases:
+  - /introductie/verschillende-edities
+  - /node/96
 ---
 
 ## Ubuntu Desktop

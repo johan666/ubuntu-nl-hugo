@@ -5,6 +5,9 @@ menu:
   mainnav:
     parent: ondersteuning
     weight: 40
+aliases:
+  - /ondersteuning/steunpunten
+  - /node/130
 ---
 
 # Steunpunten

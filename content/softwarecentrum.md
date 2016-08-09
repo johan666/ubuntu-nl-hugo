@@ -7,6 +7,8 @@ menu:
     weight: 70
     identifier: Softwarecentrum
     name: Softwarecentrum
+aliases:
+  - /node/69
 ---
 
 # Het Ubuntu Softwarecentrum

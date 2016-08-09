@@ -6,6 +6,8 @@ menu:
     parent: gemeenschap
     weight: 10
     name: Introductie
+aliases:
+  - /node/5
 ---
 # Wat is en wat doet Ubuntu-NL?
 Ubuntu Nederland (Ubuntu-NL) is het aanspreekpunt in Nederland en Vlaanderen (in samenwerking met Ubuntu-BE) voor Nederlandstalige Ubuntugebruikers. Ubuntu-NL is opgericht in 2004, kort na de uitgave van de eerste versie van Ubuntu (4.10). Vandaag de dag horen we bij de grootste en meest actieve LoCo-teams ter wereld binnen de Ubuntu-gemeenschap. De Ubuntu-NL-gemeenschap is actief op veel fronten. Onze belangrijkste bezigheden zijn:

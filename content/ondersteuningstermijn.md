@@ -7,6 +7,9 @@ menu:
     weight: 50
     identifier: ondersteuningstermijn
     name: Ondersteuningstermijn
+aliases:
+  - /introductie/ondersteuningstermijn
+  - /node/98
 ---
 
 

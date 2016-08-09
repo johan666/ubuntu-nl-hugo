@@ -7,6 +7,8 @@ menu:
     weight: 50
     identifier: ubuntu-gnome
     name: Ubuntu GNOME
+aliases:
+  - /node/144
 ---
 
 # Ubuntu GNOME - versie 14.04.3 LTS

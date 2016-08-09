@@ -5,6 +5,8 @@ menu:
   mainnav:
     parent: gemeenschap
     weight: 100
+aliases:
+  - /node/49
 ---
 # Gemeenschapsraad
 De gemeenschapsraad  is verantwoordelijk voor langetermijnvisie en -plannen, controleert de algemene middelen en voert het afgesproken beleid uit. Dit is het aanspreekpunt voor de internationale gemeenschap en voor derden.

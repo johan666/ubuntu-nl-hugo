@@ -5,6 +5,9 @@ menu:
   mainnav:
     parent: gemeenschap
     weight: 80
+aliases:
+  - /gemeenschap/gedragscode
+  - /node/134
 ---
 # Gedragscode (code of conduct)
 Ubuntu is een Afrikaans concept, de Ubuntu-gedachte is onze basis. In Zuid-Afrika drukt het woord een manier van zijn uit. Als je "Ubuntu" bent is dat een compliment. Bij de Ubuntu-gedachte hoort ook een levensstijl van luisteren, verbinding maken, dialoog, en communiceren met elkaar, op een respectvolle manier en wijze. Dezelfde ideeën staan centraal in de manier waarop de Ubuntu-community samenwerkt. Leden van de Ubuntu-community moeten efficiënt kunnen samenwerken, en in deze gedragscode staan de "basisregels" van onze samenwerking.

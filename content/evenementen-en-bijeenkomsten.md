@@ -5,6 +5,9 @@ menu:
   mainnav:
     parent: agenda
     weight: 20
+aliases:
+  - /agenda/evenementen-en-bijeenkomsten
+  - /node/23
 ---
 Hieronder vindt u de evenementen waar onze gemeenschap of een partner van Ubuntu-NL actief is. Wilt u een evenement of bijeenkomst bijwonen, klik dan op "Aanmelden".
 

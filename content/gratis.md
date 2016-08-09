@@ -7,6 +7,9 @@ menu:
     weight: 30
     identifier: gratis
     name: Gratis
+aliases:
+  - /introductie/gratis
+  - /node/77
 ---
 
 ## Vrijesoftwarelicentie

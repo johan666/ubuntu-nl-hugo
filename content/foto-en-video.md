@@ -7,6 +7,9 @@ menu:
     weight: 60
     identifier: foto-en-video
     name: Foto en Video
+aliases:
+  - /desktop/foto-en-video
+  - /node/68
 ---
 
 # Foto en video

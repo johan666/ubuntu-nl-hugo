@@ -7,6 +7,15 @@ menu:
     weight: 70
     identifier: download
     name: Download
+aliases:
+  - /node/93
+  - /node/139
+  - /download/torrents
+  - /node/132
+  - /download/afgeleiden
+  - /node/95
+  - /download/server
+  - /node/94
 ---
 
 # Ubuntu Desktop 16.04 LTS {#desktop}

@@ -7,6 +7,9 @@ menu:
     weight: 20
     identifier: edubuntu
     name: Edubuntu
+aliases:
+  - /afgeleiden/edubuntu
+  - /node/83
 ---
 
 # Edubuntu

@@ -7,6 +7,8 @@ menu:
     weight: 20
     identifier: vrij
     name: Vrij
+aliases:
+  - /node/138
 ---
 
 ## Open

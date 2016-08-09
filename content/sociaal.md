@@ -7,6 +7,9 @@ menu:
     weight: 40
     identifier: sociaal
     name: Sociale Media
+aliases:
+  - /desktop/sociaal
+  - /node/66
 ---
 
 # Sociale media
@@ -19,3 +22,7 @@ En met het standaard geïnstalleerde e-mailprogramma _Mozilla Thunderbird_ heeft
 In het _Ubuntu Softwarecentrum_ vindt u nog meer (bekende) sociale media-apps, zoals Skype, Feedreader-apps en Twitter-apps.
 
 Online verbonden zijn was nog nooit zo leuk en gemakkelijk!
+
+![](/images/empathy-48-reflex.png) ![](/images/evolution-48-reflex.png) ![](/images/skype-48-reflex.png)
+
+![](/images/Thunderbird.png) ![](/images/Skype.png)

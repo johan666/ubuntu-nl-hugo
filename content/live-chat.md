@@ -5,6 +5,11 @@ menu:
   mainnav:
     parent: ondersteuning
     weight: 30
+aliases:
+  - /ondersteuning/live-chat-meeting
+  - /node/142
+  - /ondersteuning/live-chat
+  - /node/131
 ---
 
 Welkom op de hulpchatpagina van Ubuntu-NL. Hier kunt u hulp vragen in ons chatkanaal #ubuntu-nl. Als u geen hulp vraagt maar wel gezellig wil chatten dan kan dat in #ubuntu-nl-offtopic.

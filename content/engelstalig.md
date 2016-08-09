@@ -5,6 +5,9 @@ menu:
   mainnav:
     parent: ondersteuning
     weight: 60
+aliases:
+  - /ondersteuning/engelstalig
+  - /node/129
 ---
 
 # Engelstalige ondersteuning

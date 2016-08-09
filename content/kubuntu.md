@@ -7,6 +7,9 @@ menu:
     weight: 30
     identifier: kubuntu
     name: Kubuntu
+aliases:
+  - /afgeleiden/kubuntu
+  - /node/84
 ---
 
 # Kubuntu

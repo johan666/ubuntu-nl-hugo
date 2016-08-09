@@ -7,6 +7,9 @@ menu:
     weight: 90
     identifier: xubuntu
     name: Xubuntu
+aliases:
+  - /afgeleiden/xubuntu
+  - /node/85
 ---
 
 # Xubuntu - versie 14.04.3 LTS

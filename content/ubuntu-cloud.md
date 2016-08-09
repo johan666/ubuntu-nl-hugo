@@ -7,6 +7,9 @@ menu:
     weight: 30
     identifier: cloud
     name: Ubuntu Cloud
+aliases:
+  - /server/ubuntu-cloud
+  - /node/81
 ---
 # Cloud computing
 Wanneer we spreken over "cloud computing" dan hebben we het over ict diensten die niet draaien op één bepaalde computer, maar die grotendeels via het netwerk draaien op een virtueel plaftorm gespreid over meerdere computers. De diensten voor de client worden via het netwerk aan de "cloud" uitbesteed.

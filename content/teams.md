@@ -5,6 +5,9 @@ menu:
   mainnav:
     parent: gemeenschap
     weight: 60
+aliases:
+  - /gemeenschap/teams
+  - /node/7
 ---
 <!-- Deze lijst wordt opgebouwd op het moment dat je de site maakt met Hugo. Dus niet real-time / dynamisch -->
 

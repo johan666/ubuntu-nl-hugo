@@ -7,6 +7,9 @@ menu:
     weight: 50
     identifier: muziek-en-mobiel
     name: Muziek en Mobiel
+aliases:
+  - /desktop/muziek-en-mobiel
+  - /node/67
 ---
 
 # Muziek en mobiel

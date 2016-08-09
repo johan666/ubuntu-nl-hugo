@@ -7,6 +7,9 @@ menu:
     weight: 40
     identifier: lubuntu
     name: Lubuntu
+aliases:
+  - /afgeleiden/lubuntu
+  - /node/86
 ---
 
 # Lubuntu - versie 14.04.3 LTS

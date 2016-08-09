@@ -6,6 +6,8 @@ menu:
     parent: agenda
     weight: 10
     name: Vergaderingen    
+aliases:
+  - /node/24
 ---
 Hieronder vindt u de vergaderingen in onze gemeenschap. Wanneer u op de naam van de vergadering klikt krijgt u meer informatie te zien over de vergadering.
 

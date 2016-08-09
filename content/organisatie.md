@@ -5,7 +5,11 @@ menu:
   mainnav:
     parent: gemeenschap
     weight: 50
+aliases:
+  - /gemeenschap/organisatie
+  - /node/52
 ---
+
 Meer informatie over de onderdelen van de organisatie is hier te vinden:
 
 - [Gemeenschapsraad](http://wiki.ubuntu-nl.org/community/Gemeenschapsraad)

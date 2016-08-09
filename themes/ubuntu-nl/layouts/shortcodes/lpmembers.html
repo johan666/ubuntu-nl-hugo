@@ -1,0 +1,16 @@
+<ul>
+  {{ $team := .Get "team" }}
+  {{ $data := getJSON "https://api.launchpad.net/1.0/~" $team "/participants" }}
+  {{ range where $data.entries "is_team" "!=" true }}
+    {{ $entry := . }}
+
+        <li>
+          <img src="{{ $entry.logo_link }}" alt="logo" title="" />
+          <a href="{{ $entry.web_link }}" target="_blank">{{ $entry.display_name }}</a>
+          <!-- FIXME opmaak van de lijst. Filteren van de description of team_description (safeHTML of andere functie?)
+              wanneer een item ontbreekt: mogelijk te gebruiken: {{with $entry.naam}} doe iets {{end}} -->
+          {{ $entry.description }}
+        </li>
+
+  {{ end }}
+</ul>

@@ -7,9 +7,16 @@ menu:
     weight: 30
     identifier: kantoor
     name: Kantoor
+aliases:
+  - /desktop/kantoor
+  - /node/65
 ---
 
 # Kantoor
 Maak zowel simpele als professionele documenten, spreadsheets en presentaties op Ubuntu met het bekende kantoorpakket LibreOffice. LibreOffice is standaard geïnstalleerd op Ubuntu, zodat u direct aan de slag kunt.
 
 LibreOffice is eenvoudig in gebruik, geheel gratis en vrij, en komt met alle functies die u van een kantoorpakket verwacht. Bovendien kan het alle bestanden van Microsoft Office lezen en bewerken. U kunt dus gewoon met uw eigen documenten aan de slag. Uitwisselen met anderen is daardoor een fluitje van een cent.
+
+![](/images/libreoffice-writer-48-reflex.png) ![](/images/libreoffice-cal-48-reflex.png) ![](/images/libreoffice-impress-48-reflex.png)
+
+![](/images/lowriter.jpg)

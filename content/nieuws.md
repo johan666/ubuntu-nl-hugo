@@ -5,6 +5,8 @@ menu:
   mainnav:
     weight: 40
     identifier: nieuws
+aliases:
+  - /node/19
 ---
 
 ## Ubuntu-NL sociale media

@@ -7,7 +7,9 @@ menu:
     weight: 10
     identifier: introductie
     name: Wat is Ubuntu
-
+aliases:
+  - /introductie/wat-is-ubuntu
+  - /node/75
 ---
 
 ## Een Afrikaans woord

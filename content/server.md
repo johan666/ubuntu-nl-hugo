@@ -6,6 +6,9 @@ menu:
     parent: server
     weight: 10
     identifier: server-introductie
+aliases:
+  - /server/introductie
+  - /node/79
 ---
 
 # Ubuntu server

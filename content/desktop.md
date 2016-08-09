@@ -6,6 +6,9 @@ menu:
     parent: desktop-introductie
     weight: 10
     identifier: desktop
+aliases:
+ - /ubuntu/desktop
+ - /node/74
 ---
 # Dé desktop
 Intuïtief, snel, virusvrij, onderhoudsarm, geen reclame of ongewenste (probeer)software en standaard voorzien alle basisbenodigdheden. Dát is Ubuntu in een notendop.
@@ -25,3 +28,5 @@ Ubuntu is helder, gestroomlijnd, volledig Nederlandstalig en, niet onbelangrijk,
 
 
 Of klik op een ander onderdeel hierboven om de tour te vervolgen.
+
+![](/images/dash.png) ![](/images/w.png) ![](/images/label.png) ![](/images/dash2.png)

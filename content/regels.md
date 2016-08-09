@@ -5,6 +5,9 @@ menu:
   mainnav:
     parent: gemeenschap
     weight: 90
+aliases:
+  - /gemeenschap/regels
+  - /node/135
 ---
 
 # Regels en richtlijnen

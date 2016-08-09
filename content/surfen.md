@@ -7,6 +7,9 @@ menu:
     weight: 20
     identifier: surfen
     name: Internetten
+aliases:
+  - /desktop/surfen
+  - /node/64
 ---
 
 # Internetten
@@ -16,3 +19,7 @@ De alom bekende webbrowser _Mozilla Firefox_, die ook beschikbaar is voor o.a. W
 Maar er is meer: de bekende webbrowser _Chromium_ is ook beschikbaar voor installatie, evenals de simpele, moderne webbrowser _Web (Epiphany webbrowser)_. U vindt ze in het [Ubuntu Softwarecentrum](/softwarecentrum). Ook andere bekende webbrowsers als _Google Chrome_ en _Opera_ zijn beschikbaar voor Ubuntu, u vindt deze op hun websites.
 
 Verder kunt u al uw favoriete websites gebruiken met Ubuntu dankzij de beschikbare multimedia-ondersteuning. Adobe Flash Player, Java, HTML5... het is er allemaal!
+
+![](/images/firefox.png) ![](/images/Google-Chrome-Chromium-icon.png) ![](/images/60px-Epiphany-web-browser.png)
+
+![](/images/web-main.png) ![](/images/Web-3.14.png)

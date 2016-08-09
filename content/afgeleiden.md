@@ -7,6 +7,9 @@ menu:
     weight: 10
     identifier: afgeleiden-introductie
     name: Introductie
+aliases:
+  - /afgeleiden/introductie
+  - /node/82
 ---
 
 # Officiële afgeleiden van Ubuntu
