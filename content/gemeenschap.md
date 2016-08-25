@@ -23,7 +23,7 @@ Naast de halfjaarlijkse [releaseparty](http://www.ubuntuparty.nl/) (vooraf aange
 Daarnaast is Ubuntu-NL ook op [sociale media](http://ubuntu-nl.org/nieuws) actief bezig met promotie.
 
 ## Vertaling
-Dankzij Gnome-NL, KDE-NL en andere vertaalprojecten is Ubuntu al grotendeels vertaald naar het Nederlands. Daar waar dat nog niet het geval is, helpt het [Ubuntu-NL Vertaalteam](https://forum.ubuntu-nl.org/index.php?board=4.0).
+Dankzij Gnome-NL, KDE-NL en andere vertaalprojecten is Ubuntu al grotendeels vertaald naar het Nederlands. Daar waar dat nog niet het geval is, helpt het [Ubuntu-NL Vertaalteam](http://wiki.ubuntu-nl.org/community/Vertaalteam).
 
 ## Meehelpen
 Wilt u meehelpen binnen onze gemeenschap? Dat kan! U kunt zelf hulp bieden op het [Ubuntu-NL Forum](http://forum.ubuntu-nl.org/) (na eenmalige, gratis vrije registratie) of [IRC-kanaal](/live-chat/). Daarnaast kunt u altijd helpen met [het promoten van Ubuntu](http://forum.ubuntu-nl.org/index.php?board=40.0). Ook op [sociale media](/nieuws) - gebruik hashtags, deel onze berichten en vermeld ons.
