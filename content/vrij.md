@@ -14,7 +14,6 @@ aliases:
 ## Open
 Ubuntu is [vrije software](http://wiki.ubuntu-nl.org/community/Filosofie#Vrije_software), of in het Engels 'free software'. In het Engels heeft 'free' een dubbele betekenis: het betekent zowel 'vrij' als 'gratis'. Het doel van vrije software is echter niet dat deze gratis is, maar dat de gebruiker vrij is om te doen wat hij of zij wil met deze software. Daarom is de [broncode](https://nl.wikipedia.org/wiki/Broncode) (de code waar het systeem uit wordt gebouwd, de 'mechaniek') van vrije software vrij toegankelijk en mag je deze inzien en aanpassen naar eigen wens. Ook mag je Ubuntu kopiëren, en delen met anderen.
 
-￼
 ## Ideëel
 Het doel van vrije software is dus niet commercieel (een goedkoop product maken), maar ideëel: vrije software waarborgt de vrijheid van de gebruikers. Veel gesloten bron software dient vooral commerciële belangen, en regelmatig wordt hiervoor functionaliteit opgeofferd.  Denk bijvoorbeeld aan allerlei beperkingen die worden ingebakken zodat deze software niet goed samenwerkt met producten van andere bedrijven. Omdat bij gesloten bron software de broncode geheim wordt gehouden kunnen gebruikers hier niets aan doen.
 
