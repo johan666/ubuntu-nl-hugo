@@ -12,11 +12,10 @@ aliases:
 ---
 
 # Ubuntu GNOME - versie 14.04.3 LTS
-_Ubuntu met de GNOME-werkomgeving._
-De belangrijkste kenmerken van Ubuntu GNOME zijn dat het een uiterlijk en gedrag heeft dat een kruising is tussen een werkomgeving voor een desktop PC en een tablet en dat het zeer aanpasbaar is omdat extensies te installeren zijn die de functionaliteit aanpassen/vergroten (net als in een webbrowser). Bezoek hiervoor de GNOME Extensions-website vanuit de standaard meegeleverde webbrowser Firefox.
-U downloadt Ubuntu GNOME in een zogeheten "Live-versie". Dit betekent dat u Ubuntu GNOME gewoon kunt uitproberen zonder dat u het hoeft te installeren. Als u Ubuntu GNOME wilt installeren, kan dat uiteraard eenvoudig vanuit deze Live-versie. Omdat Ubuntu GNOME gratis en vrij is, kunt u zo vaak en op zoveel computers installeren als u wilt!
-
- {{< button url="/download" text="Klik hier om naar de downloadpagina te gaan" >}}
+_Ubuntu met de GNOME-werkomgeving._  
+De belangrijkste kenmerken van Ubuntu GNOME zijn dat het een uiterlijk en gedrag heeft dat een kruising is tussen een werkomgeving voor een desktop PC en een tablet en dat het zeer aanpasbaar is omdat extensies te installeren zijn die de functionaliteit aanpassen/vergroten (net als in een webbrowser). Bezoek hiervoor de GNOME Extensions-website vanuit de standaard meegeleverde webbrowser Firefox.  
+U downloadt Ubuntu GNOME in een zogeheten "Live-versie". Dit betekent dat u Ubuntu GNOME gewoon kunt uitproberen zonder dat u het hoeft te installeren. Als u Ubuntu GNOME wilt installeren, kan dat uiteraard eenvoudig vanuit deze Live-versie. Omdat Ubuntu GNOME gratis en vrij is, kunt u zo vaak en op zoveel computers installeren als u wilt!  
+{{< button url="/download" text="Klik hier om naar de downloadpagina te gaan" >}}
 
 ## Wat voor computer heb ik nodig om Ubuntu GNOME te kunnen gebruiken?
 Als uw computer minimaal beschikt over een 1 GHz Pentium 4-processor, 1 GB RAM-geheugen (werkgeheugen), 128 MB videokaart-geheugen en 8 GB vrije schijfruimte, kunt u Ubuntu GNOME gebruiken. Indien uw PC minder dan 2 GB RAM-geheugen (werkgeheugen) heeft, is het aanbevolen om de 32-bits-versie te downloaden.

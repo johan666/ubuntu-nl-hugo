@@ -27,7 +27,6 @@ Tip: wilt u nu alvast vanuit uw webbrowser bekijken welke software er in het Ubu
 
 ## Hier eindigt de tour! Wilt u Ubuntu uitproberen?    
 
-
 {{< button url="/download" text="Klik hier om Ubuntu te downloaden" >}}
 
 ## Heeft u hulp nodig bij het downloaden/installeren of heeft u andere vragen?

@@ -26,4 +26,4 @@ Als u liever uw vraag op een forum stelt, kunt u internationaal terecht bij de [
 Vindt u forums maar niets? Of wilt u de ontwikkeling van Ubuntu volgen? Word dan lid van één of meerdere [internationale mailing lists](https://community.ubuntu.com/contribute/support/mailinglists/).
 
 ## Ask Ubuntu
-https://askubuntu.com: Een vraag en antwoordsite die bijgehouden wordt door zowel gebruikers als ontwikkelaars van Ubuntu. De site is gratis, en er is geen registratie vereist.
+https://askubuntu.com: Een vraag-en-antwoordsite die bijgehouden wordt door zowel gebruikers als ontwikkelaars van Ubuntu. De site is gratis en er is geen registratie vereist.

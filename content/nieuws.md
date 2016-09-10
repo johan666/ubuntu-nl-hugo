@@ -13,7 +13,7 @@ aliases:
 _Onze officële sociale media-kanalen met het laatste nieuws uit de Nederlands(talig)e Ubuntu-gemeenschap en leuke tips en trucs_
 
 - [Ubuntu-NL Planet](/planet): een overzicht van de laatste artikelen op de blogs van gemeenschapsleden. _Tip: wilt u dat uw blog wordt opgenomen in de Planet? Open dan een topic in [deze sectie](https://forum.ubuntu-nl.org/index.php?board=9.0) op het Ubuntu-NL Forum._
-- [Ubuntu-NL op Twitter](/twitter): voor het laatste nieuws, leuke aankondingen uit de cgemeenschap en leuke tips en nieuws!
+- [Ubuntu-NL op Twitter](/twitter): voor het laatste nieuws, leuke aankondingen uit de gemeenschap en leuke tips en nieuws!
 - [Ubuntu-NL op Facebook](https://www.facebook.com/ubuntunederlands): voor het laatste nieuws, leuke aankondigingen uit de community en hulpvragen (en soms een leuke tip).
 - Ubuntu-NL op Google+: [Algemene pagina](https://plus.google.com/b/105917304109364950824/105917304109364950824/posts) en belangrijker nog: [Community](https://plus.google.com/b/105917304109364950824/communities/103983236519805467017), voor hulpvragen en discussies.
 

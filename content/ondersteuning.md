@@ -10,7 +10,7 @@ aliases:
 ---
 # Hulp of ondersteuning bij Ubuntu, Xubuntu, Lubuntu of een andere afgeleide
 
-**De Ubuntu-gemeenschap helpt mensen graag om problemen op te lossen. Naast digitale handleidingen is er uitgebreide documentatie beschikbaar en zijn er vele manieren om met mensen in de gemeenschap in contact te komen en zo ondersteuning te verkrijgen; van internetondersteuning tot persoonlijke (aan huis) ondersteuning. Op deze pagina vindt u een lijst met handleidingen, documentatie en manieren om hulp te verkrijgen.**
+De Ubuntu-gemeenschap helpt mensen graag om problemen op te lossen. Naast digitale handleidingen is er uitgebreide documentatie beschikbaar en zijn er vele manieren om met mensen in de gemeenschap in contact te komen en zo ondersteuning te verkrijgen; van internetondersteuning tot persoonlijke (aan huis) ondersteuning. Op deze pagina vindt u een lijst met handleidingen, documentatie en manieren om hulp te verkrijgen.
 
 
 ## Digitale handleidingen en documentatie
