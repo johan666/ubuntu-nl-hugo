@@ -5,7 +5,7 @@ aliases:
   - /node/100
 ---
 
-|.|.|
+|&nbsp;|&nbsp;|
 |---|---|
 |![](/images/bookshelf.resized.jpg)|"Books@work" door Steve Jurvedson {{< figure src="http://i.creativecommons.org/l/by/2.0/88x31.png" link="http://creativecommons.org/licenses/by/2.0/" >}} Dit werk is gelicenseerd onder een [Creative Commons Naamsvermelding 2.0 Unported licentie](http://creativecommons.org/licenses/by/2.0/)|
 |![](/images/common-tasks.resized.jpg)|"Every Day Carry" by Guy Sie {{< figure src="http://i.creativecommons.org/l/by/2.0/88x31.png" link="http://creativecommons.org/licenses/by/2.0/" >}} Dit werk is gelicenseerd onder een [Creative Commons Naamsvermelding 2.0 Unported licentie](http://creativecommons.org/licenses/by/2.0/)|

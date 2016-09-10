@@ -12,13 +12,13 @@ aliases:
 # Onze sponsoren
 
 ## Hosting
-.  |  .
+&nbsp;  |  &nbsp;
 ---|---
 De Ubuntu-NL website wordt gehost door de HCC. De [HCC](http://www.hcc.nl/) is dé ontmoetingsplaats voor mensen met een gezamenlijke interesse in computergebruik en een kennisnetwerk voor computergerelateerde onderwerpen. | ![](/images/hcc.png)
 [BIT](https://www.bit.nl/) is een zakelijke ISP die zich toelegt op geavanceerde maatwerkoplossingen voor elektronische communicatie.  | ![](/images/bit.png)
 
 ## Evenementen
-.  |  .
+&nbsp;  |  &nbsp;
 ---|---
 [AT Computing](http://www.atcomputing.nl/) is een team van gespecialiseerde opleiders en oplossers op het gebied van Linux, Open Source, UNIX en programmeertalen - de one-stop shop voor Linux- en UNIX-kennisoverdracht waar u wat mee kúnt.  |  ![](/images/ATComp_logo.resized.png)
 [Axolot](http://www.axolot.nl/) is de innovatieve ICT-opleider die hoogwaardige en praktische kwaliteitstrainingen biedt voor ICT professionals en powerusers. Excellente kwaliteit is het uitgangspunt bij alles wat we doen.  |  ![](/images/Axolot.jpeg)

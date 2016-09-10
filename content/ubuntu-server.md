@@ -12,7 +12,7 @@ aliases:
   - /node/78
 ---
 
-.|.|.|.
+&nbsp;|&nbsp;|&nbsp;|&nbsp;
 ---|---|---|---
 ![](/images/ground-up.resized.jpg)  | **Licht en zonder troep** Ubuntu wordt van de basis af opgebouwd zonder overbodige 'troep', je bent minder tijd kwijt aan onderhoud en updates. | **Gemeenschap** Ubuntu server heeft een erg grote en actieve gebruikersgemeenschap. Voor geen enkele andere distributie is er zo veel documentatie te vinden.  |  ![](/images/crowd.resized.jpg)
 ![](/images/common-tasks.resized.jpg)  | **Productief** Met één commando automatisch de software installeren voor veel gebruikte servertoepassingen.  | **Regelmaat** De zeer regelmatige en voorspelbare cycli van uitgave en ondersteuning besparen kosten. Plannen was nog nooit zo gemakkelijk.  |  ![](/images/cycle.resized.jpg)
