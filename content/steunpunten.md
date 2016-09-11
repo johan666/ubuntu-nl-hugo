@@ -13,7 +13,7 @@ aliases:
 # Steunpunten
 Veel vrijwilligers in de Nederlandstalige Ubuntu-gemeenschap (Ubuntu-NL en Ubuntu-BE) hebben zich opgegeven als steunpunt via het Ubuntu-NL Forum. Kunt u geen hulp vinden via het Ubuntu-NL Forum of heeft u behoefte aan persoonlijke hulp? Dant kunt u altijd contact opnemen met een steunpunt in uw buurt. Alle Ubuntu-NL-forumleden die hun locatie hebben doorgegeven zijn te vinden op deze kaart.
 
-[Klik hier om de steunpuntenkaart te openen!](http://kaart.ubuntu-nl.org/)
+[Klik hier om de steunpuntenkaart te openen!](https://kaart.ubuntu-nl.org/)
 
 ## Hoe werkt de steunpuntenkaart?
 - Rechtsbovenin vindt u de mogelijkheid om ieder lid weer te geven of alleen de steunpunten.
