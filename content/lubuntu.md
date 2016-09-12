@@ -15,7 +15,7 @@ aliases:
 # Lubuntu - versie 14.04.3 LTS
 _Ubuntu met de LXDE-werkomgeving._
 Lubuntu is een écht lichtgewichtsysteem, een stuk lichter nog dan Xubuntu. Zo'n licht systeem is natuurlijk niet te verslaan als het om responssnelheid gaat. De omgeving is makkelijk ingericht en kenmerkt zich door een eenvoudig thema zonder teveel franje of grafische effecten. Verwar dit niet met minder kwaliteit! Veel mensen waarderen Lubuntu juist vanwege deze eenvoud. U downloadt Lubuntu in een zogeheten "Live-versie". Dit betekent dat u Lubuntu gewoon kunt uitproberen zonder dat u het hoeft te installeren. Als u Lubuntu wilt installeren, kan dat uiteraard eenvoudig vanuit deze Live-versie. Omdat Lubuntu gratis en vrijs is, kunt u zo vaak en op zoveel computers installeren als u wilt!  
-{{< button url="/download" text="Klik hier om naar de downloadpagina te gaan" >}}
+{{< button url="/download#afgeleiden" text="Klik hier om naar de downloadpagina te gaan" >}}
 
 ## Wat voor computer heb ik nodig om Lubuntu te kunnen gebruiken?
 Als uw computer minimaal beschikt over een 800 MHz Pentium III-processor, 128 MB RAM-geheugen (werkgeheugen), 8 MB videokaart-geheugen en 6 GB vrije schijfruimte, kunt u Lubuntu gebruiken. Indien uw PC minder dan 2 GB RAM-geheugen (werkgeheugen) heeft, is het aanbevolen om de 32-bits-versie te downloaden.

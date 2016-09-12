@@ -16,7 +16,7 @@ aliases:
 # Ubuntu Studio
 
 Een heel besturingssysteem speciaal ontworpen om creativiteit alle ruimte te geven. Ubuntu Studio zit boordevol speciale applicaties gericht op muziek maken, video bewerken, grafisch ontwerpen, animaties maken etc. Met Ubuntu Studio is er geen rem meer op creativiteit!  
-{{< button url="/download" text="Klik hier om naar de downloadpagina te gaan" >}}
+{{< button url="/download#afgeleiden" text="Klik hier om naar de downloadpagina te gaan" >}}
 
 ## Muziek
 
