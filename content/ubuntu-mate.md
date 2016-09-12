@@ -9,6 +9,7 @@ menu:
     name: Ubuntu Mate
 ---
 
+# Ubuntu MATE
 Ubuntu MATE is een officiële afgeleide van Ubuntu. Het belangrijkste verschil is dat er gebruik gemaakt wordt van de MATE desktopomgeving in plaats van Unity.
 MATE (uitspraak: maté) is afgeleid van GNOME 2 en is een gebruiksvriendelijke desktop die je computer niet zwaar belast.  
 {{< button url="/download#afgeleiden" text="Klik hier om naar de downloadpagina te gaan" >}}
