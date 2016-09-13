@@ -4,13 +4,9 @@
   {{ range where $data.entries "is_team" "!=" true }}
     {{ $entry := . }}
 
-        <li>
-          <img src="{{ $entry.logo_link }}" alt="logo" title="" />
-          <a href="{{ $entry.web_link }}" target="_blank">{{ $entry.display_name }}</a>
-          <!-- FIXME opmaak van de lijst. Filteren van de description of team_description (safeHTML of andere functie?)
-              wanneer een item ontbreekt: mogelijk te gebruiken: {{with $entry.naam}} doe iets {{end}} -->
-          {{ $entry.description }}
-        </li>
+      <li>
+        <a href="{{ $entry.web_link }}" target="_blank">{{ $entry.display_name }}</a>{{with $entry.description}}: {{ $entry.description |markdownify}}{{end}}
+      </li>
 
   {{ end }}
 </ul>
