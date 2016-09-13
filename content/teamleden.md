@@ -11,6 +11,6 @@ aliases:
 ---
 <!-- Deze lijst wordt opgebouwd op het moment dat je de site maakt met Hugo. Dus niet real-time / dynamisch -->
 
-{{% lpmembers team="ubuntu-nl" |markdownify %}}
+{{% lpmembers team="ubuntu-nl" %}}
 
 ---
