@@ -1,6 +1,6 @@
 baseurl = "https://beta.ubuntu-nl.org/"
 languageCode = "nl-nl"
-title = "Hugo testsite"
+title = "Ubuntu NL"
 theme = "ubuntu-nl"
 MetaDataFormat = "yaml"
 
