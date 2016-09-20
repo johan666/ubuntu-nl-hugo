@@ -25,7 +25,7 @@
             {{ $currentNode := . }}
             {{ range .Site.Menus.mainnav }}
               <li class="menu {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}active-trail active{{end}}"><a href="{{.URL}}" {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}class="active"{{end}}>{{.Name}}</a></li>
-              {{end}}
+            {{end}}
             </ul>
             <div id="logo">  <a href="/" title="Ubuntu Loco Nederland">    <img src="/images/ubuntu-logo.png" alt="Ubuntu Loco Nederlands" />    <span id="loco">Ubuntu Loco Nederlands</span>  </a></div>
         </div>
