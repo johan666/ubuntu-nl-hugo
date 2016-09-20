@@ -6,8 +6,6 @@
       <li>
         <img src="{{ $entry.logo_link }}" alt="logo" title="" />
         <a href="{{ $entry.web_link }}" target="_blank">{{ $entry.display_name }}</a>
-        <!-- FIXME opmaak van de lijst. Filteren van de description of team_description (safeHTML of andere functie?)
-             wanneer een item ontbreekt: mogelijk te gebruiken: {{with $entry.naam}} doe iets {{end}} -->
         {{ $entry.description |markdownify}}
       </li>
   {{ end }}

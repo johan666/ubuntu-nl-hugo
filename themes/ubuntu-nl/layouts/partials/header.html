@@ -1,12 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
   <title>{{ .Title }} | Ubuntu loco Nederlands</title>
-  {{/*
-  stylesheets
-  fonts
-  scripts?
-  */}}
+  <meta charset="UTF-8">
   <link type="text/css" rel="stylesheet" media="all" href="/css/system.css" />
   <link type="text/css" rel="stylesheet" media="all" href="/css/system-menus.css" />
   <link type="text/css" rel="stylesheet" media="all" href="/css/tabbed_page.css" />
@@ -20,7 +16,6 @@
   <link rel="manifest" href="/manifest.json">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="theme-color" content="#dd4814">
-  <meta charset="UTF-8">
   {{ .Hugo.Generator }}
 </head>
 <body>
@@ -30,7 +25,7 @@
             {{ $currentNode := . }}
             {{ range .Site.Menus.mainnav }}
               <li class="menu {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}active-trail active{{end}}"><a href="{{.URL}}" {{ if or ($currentNode.IsMenuCurrent "mainnav" .) ($currentNode.HasMenuCurrent "mainnav" .) }}class="active"{{end}}>{{.Name}}</a></li>
-              {{end}}
+            {{end}}
             </ul>
             <div id="logo">  <a href="/" title="Ubuntu Loco Nederland">    <img src="/images/ubuntu-logo.png" alt="Ubuntu Loco Nederlands" />    <span id="loco">Ubuntu Loco Nederlands</span>  </a></div>
         </div>
@@ -40,7 +35,6 @@
               <div class="container-inside">
                 <ul class="links secondary-links">
                       {{/*submenu items
-
                       FIXME kan dit handiger? Ga alle menus af en kijk of dit het huidige menu is.
                       Zo ja, ga de Children van het huidige menu af om het submenu te bouwen
                       FIXME Het submenu waar de active tabbed page onderdeel van is, moet ook actief worden
@@ -58,40 +52,7 @@
             </div>
 
         </div>
-{{/* FIXME Hier moet de table of contents komen
-{{ if .Params.toc }}
-<div id="toc" class="col-lg-offset-6 toc {{ if gt (len .TableOfContents) 2500 }}compact{{ end }}">
-{{ .TableOfContents }}
-</div>
-{{ end }}
-https://discuss.gohugo.io/t/tableofcontents/1616/4
-https://discuss.gohugo.io/t/exclude-some-head-levels-from-tableofcontents/1380/2
-FIXME CSS voor de toc maken
-*/}}
-
 
   <!-- content vanuit markdown, evt. in aparte div -->
   <div id="content">
    <div class="container" style="width: 980px;">
-
-{{/* Tabbed pages */}}
-
-{{/* debug info
-{{ printf "%#v" .Params.menu }}
-<p>
-{{ printf "%#v" .Params.menu.mainnav.parent }}
-<p>
-{{ printf "%#v" .Params.menu.mainnav.identifier }}
-<p>
-{{ printf "%#v" .Site.Menus.mainnav }}
-<p>
-//{{ printf "%#v" $currentNode.Params.menu.mainnav.identifier }}
-<p>
-{{ $.Scratch.Get "tabbedpage" }}
-/////
-{{ range .Site.Menus.mainnav }}
-{{ range .Children}}
-{{ printf "%#v" .Name }}
-{{end}}
-{{end}}
-*/}}
