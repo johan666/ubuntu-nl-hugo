@@ -18,6 +18,7 @@ aliases:
   - /node/94
   - /download/LTS
   - /getubuntu/download/LTS
+  - /download/desktop
 ---
 
 # Ubuntu Desktop 16.04 LTS {#desktop}
