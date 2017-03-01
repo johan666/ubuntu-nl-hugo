@@ -32,6 +32,8 @@ Waarom een [IKBENSTIL](https://www.ikbenstil.nl/) computer? Wij geloven dat comp
 
 [System76](https://system76.com/) verkoopt Ubuntu laptops, desktop computers en servers sinds 2005. Het bedrijf is gevestigd in de VS maar levert tegenwoordig ook in Nederland. Het uitgangspunt van System76 is dat ieder geleverd product representatief moet zijn voor System76 als geheel. Er worden alleen de meest hoogwaardige componenten en materialen gebruikt.
 
+[Linux Computers](http://www.linuxcomputers.be/) levert computers en laptops met Linux in België, Nederland, Duitsland, Frankrijk en de rest van Europa.
+
 # Professionele Ubuntu ondersteuning en training
 
 [AT Computing](http://www.atcomputing.nl/) is een team van gespecialiseerde opleiders en oplossers op het gebied van Linux, Open Source, UNIX en programmeertalen - de one-stop shop voor Linux- en UNIX-kennisoverdracht waar u wat mee kúnt.
