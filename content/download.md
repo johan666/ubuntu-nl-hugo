@@ -117,3 +117,9 @@ Alle bovenstaande Ubuntu en Ubuntu-afgeleiden zijn ook te downloaden via torrent
 - **Xubuntu Desktop 16.04.2 LTS**
   - 32-bit: [Download](http://cdimage.ubuntu.com/xubuntu/releases/16.04.2/release/xubuntu-16.04.2-desktop-i386.iso.torrent)
   - 64-bit: [Download](http://cdimage.ubuntu.com/xubuntu/releases/16.04.2/release/xubuntu-16.04.2-desktop-amd64.iso.torrent)
+
+
+-----
+# Overige downloads {#overig}
+
+Andere versies van Ubuntu kunt u vinden op de officiële site van [Ubuntu](https://www.ubuntu.com/download).
