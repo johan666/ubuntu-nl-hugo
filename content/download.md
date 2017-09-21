@@ -21,14 +21,14 @@ aliases:
   - /download/desktop
 ---
 
-# Ubuntu Desktop 16.04.2 LTS {#desktop}
+# Ubuntu Desktop 16.04.3 LTS {#desktop}
 Dit is de aanbevolen versie om te downloaden, want deze versie is een LTS-versie en wordt daarom vanaf uitgave vijf jaar (in dit geval tot 2021) ondersteund met veiligheids- en foutoplossings-updates.
 U downloadt Ubuntu in een zogeheten "Live-versie". Dit betekent dat u Ubuntu gewoon kunt uitproberen zonder dat u het hoeft te installeren. Als u Ubuntu wilt installeren, kan dat direct vanuit deze Live-versie. En omdat Ubuntu gratis en vrij is, kunt u het zo vaak en op zoveel computers installeren als u wilt!
 
 
-64-bits internationale versie (aanbevolen) {{< button url="http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.2-desktop-amd64.iso" text="Download 64-bit" >}}
+64-bits internationale versie (aanbevolen) {{< button url="http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.3-desktop-amd64.iso" text="Download 64-bit" >}}
 
-32-bits internationale versie {{< button url="http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.2-desktop-i386.iso" text="Download 32-bit" >}}
+32-bits internationale versie {{< button url="http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.3-desktop-i386.iso" text="Download 32-bit" >}}
 
 **Vragen over de download**  
 _Wat voor computer heb ik nodig om Ubuntu Desktop te kunnen gebruiken?_  
@@ -45,13 +45,13 @@ Na het maken van de opstartbare USB-stick kunt u Ubuntu uitproberen en, indien g
 Wij helpen u graag op ons [forum](https://forum.ubuntu-nl.org/). Voor andere vormen van ondersteuning, zoals gebruikershandleidingen of Ubuntu-steunpunten in uw buurt: zie onze [ondersteuningspagina](/ondersteuning).
 
 -----
-# Ubuntu Server 16.04.2 LTS {#server}
+# Ubuntu Server 16.04.3 LTS {#server}
 Dit is de aanbevolen versie om te downloaden, want deze versie is een LTS-versie en wordt daarom vanaf uitgave vijf jaar (in dit geval tot 2021) ondersteund met veiligheids- en foutoplossings-updates.
 Omdat Ubuntu gratis en vrij is, kunt u zo vaak en op zoveel computers installeren als u wilt!
 
-64-bits internationale versie {{< button url="http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.2-server-amd64.iso" text="Download 64-bit" >}}
+64-bits internationale versie {{< button url="http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.3-server-amd64.iso" text="Download 64-bit" >}}
 
-32-bits internationale versie {{< button url="http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.2-server-i386.iso" text="Download 32-bit" >}}
+32-bits internationale versie {{< button url="http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.3-server-i386.iso" text="Download 32-bit" >}}
 
 -----
 # Afgeleiden {#afgeleiden}
