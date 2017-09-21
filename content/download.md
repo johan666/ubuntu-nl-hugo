@@ -87,12 +87,12 @@ Hier staan alle internationale, officiële afgeleiden van Ubuntu 16.04:
 
 Alle bovenstaande Ubuntu en Ubuntu-afgeleiden zijn ook te downloaden via torrents:
 
-- **Ubuntu Desktop 16.04.2 LTS**
-  - 32-bit: [Download](http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.2-desktop-i386.iso.torrent)
-  - 64-bit: [Download](http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.2-desktop-amd64.iso.torrent)
-- **Ubuntu Server 16.04.2 LTS**
-  - 32-bit: [Download](http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.2-server-i386.iso.torrent)
-  - 64-bit: [Download](http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.2-server-amd64.iso.torrent)
+- **Ubuntu Desktop 16.04.3 LTS**
+  - 32-bit: [Download](http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.3-desktop-i386.iso.torrent)
+  - 64-bit: [Download](http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.3-desktop-amd64.iso.torrent)
+- **Ubuntu Server 16.04.3 LTS**
+  - 32-bit: [Download](http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.3-server-i386.iso.torrent)
+  - 64-bit: [Download](http://nl.releases.ubuntu.com/xenial/ubuntu-16.04.3-server-amd64.iso.torrent)
 - **Edubuntu Desktop 14.04.5 LTS**
   - 32-bit: [Download](http://cdimage.ubuntu.com/edubuntu/releases/14.04.5/release/edubuntu-14.04.5-dvd-i386.iso.torrent)
   - 64-bit: [Download](http://cdimage.ubuntu.com/edubuntu/releases/14.04.5/release/edubuntu-14.04.5-dvd-amd64.iso.torrent)
