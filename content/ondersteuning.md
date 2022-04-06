@@ -21,9 +21,6 @@ De Ubuntu-gemeenschap helpt mensen graag om problemen op te lossen. Naast digita
 ## Vragen, antwoorden en overige informatie
 [Het Ubuntu-NL Forum](https://forum.ubuntu-nl.org/) is een plaats voor discussie, vragen en informatie over Ubuntu en officiële afgeleiden zoals bijv. Xubuntu. Er is een grote hoeveelheid informatie te vinden en er zijn vele, behulpzame mensen. U kunt alles vragen wat u maar wilt of, in het gedeelte Algemeen, meepraten over leuke of serieuze Ubuntu-gerelateerde onderwerpen.
 
-## Steunpunten
-Binnen Nederland en Vlaanderen zijn er vele vrijwilligers waar u persoonlijk mee in contact kunt komen voor ondersteuning. Zij kunnen u bijvoorbeeld helpen bij het installeren van Ubuntu of ondersteunen bij het werken met Ubuntu. Ook voor afgeleiden zoals bijv. Xubuntu kunt u vaak bij een steunpunt terecht. Om een steunpunt in uw buurt te vinden en hier contact mee op te nemen kunt u kijken op de [Ubuntu-NL Steunpunten](http://ubuntu-nl.org/ondersteuning/steunpunten)-pagina of deze externe pagina: [Steunpunten NL-BE](http://steunpunt-almere.nl/steunpunten-nl-be/). Indien u vragen of opmerkingen heeft over de Steunpunten(kaart), dan kunt u dit doorgeven via [dit topic op ons Ubuntu-NL Forum](https://forum.ubuntu-nl.org/index.php?topic=42786.0).
-
 ## Overige vormen van ondersteuning
 De meest directe vorm van internetondersteuning is een chatgesprek met de leden van de Ubuntu-gemeenschap. U kunt ze vinden in de kanalen #ubuntu-nl (Nederlands) en #ubuntu (Engels) op de IRC-server chat.freenode.net. Indien u niet zo bekend met IRC(-clients), kunt hiervoor ook gebruik maken van de simpele [chatpagina](http://ubuntu-nl.org/ondersteuning/live-chat).
 Ook via mailinglijsten is ondersteuning te verkrijgen. Hiervoor kunt u zich abonneren op de [Ubuntu-NL](https://lists.ubuntu.com/mailman/listinfo/ubuntu-nl)-lijst of de [Ubuntu-users](https://lists.ubuntu.com/mailman/listinfo/ubuntu-users)-lijst.

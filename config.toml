@@ -43,48 +43,12 @@ MetaDataFormat = "yaml"
   parent = "gemeenschap"
   url = "http://wiki.ubuntu-nl.org/community"
 
-[[menu.mainnav]]
-  name = "Live Chat"
-  weight = 40
-  parent = "gemeenschap"
-  identifier = "live-chat-gemeenschap"
-  url = "/live-chat"
-
-[[menu.mainnav]]
-  name = "Agenda"
-  weight = 30
-  identifier = "agenda"
-  url = "/agenda"
-
-[[menu.mainnav]]
-  name = "Planet"
-  weight = 10
-  parent = "nieuws"
-  url = "/planet"
 
 [[menu.mainnav]]
   name = "Facebook"
   weight = 30
   parent = "nieuws"
   url = "https://www.facebook.com/ubuntunederlands"
-
-[[menu.mainnav]]
-  name = "Partners"
-  weight = 50
-  identifier = "partners"
-  url = "/partners"
-
-[[menu.mainnav]]
-  name = "Donaties"
-  weight = "60"
-  identifier = "donaties"
-  url = "http://sounl.org/?q=node/34"
-
-[[menu.mainnav]]
-  name = "Ubuntu België"
-  weight = 20
-  parent = "partners"
-  url = "http://www.ubuntu-be.org/"
 
 [[menu.mainnav]]
   name = "Introductie"
@@ -107,9 +71,3 @@ MetaDataFormat = "yaml"
   identifier = "server"
   url = "/server"
 
-[[menu.mainnav]]
-  name = "Afgeleiden"
-  weight = 40
-  parent = "ubuntu"
-  identifier = "afgeleiden"
-  url = "/afgeleiden"

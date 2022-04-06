@@ -19,8 +19,6 @@ Het [Ubuntu-NL Forum](https://forum.ubuntu-nl.org/) is van groot belang omdat hi
 Heel belangrijk voor het verspreiden van Ubuntu is natuurlijk het promoten van Ubuntu (en afgeleiden zoals Xubuntu). Beveel Ubuntu(-NL) aan bij uw vrienden, familie, kennissen, werk, etc. Via sociale media ([waarop wij ook actief zijn](/nieuws)) kunt u ook een hoop mensen bereiken. Vertel uw vrienden/volgers over Ubuntu en afgeleiden, gebruik hashtags zoals #ubuntu, #xubuntu, #linux, etc. en deel onze berichten en vermeld ons.
 Onze website staat, zoals u al gemerkt heeft, boordevol beginnersvriendelijke informatie, downloadlinks en nog veel meer. Als u iets over Ubuntu deelt op uw website, sociale media, ons forum, bij uw vrienden/familie/werk/etc., verwijs dan naar onze website (of link direct naar een pagina op onze website). En vertel mensen er ook bij waar ze ondersteuning kunnen krijgen (zoals bijv. op ons Forum).
 
-U kunt ook Ubuntu-NL Steunpunt worden, zodat u mensen in uw omgeving ter plaatse kunt helpen. [Klik hier](/steunpunten) voor meer informatie daarover.
-
 Ook kunt u ons helpen op evenementen; zie daarvoor [dit gedeelte op het forum](https://forum.ubuntu-nl.org/index.php?board=40.0). Heeft u zelf nog ideeën voor promotie? Laat het ons weten via de eerder genoemde link naar het forum, onze Facebook-pagina of tweet het ons op Twitter (@UbuntuNL). Wij zijn altijd op zoek naar nieuwe of betere manieren om Ubuntu(-NL) te verspreiden!
 
 ## Documentatie
